@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrégateur de Codes Promo YouTube</title>
+    <!-- Tailwind CSS pour un design propre et rapide -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-slate-100 min-h-screen font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- En-tête -->
+    <header class="border-b border-slate-800 bg-darkbg/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">🎟️</span>
+                <h1 class="text-xl font-bold tracking-tight text-white">Promos YouTube</h1>
+            </div>
+            <!-- Barre de recherche -->
+            <div class="w-full sm:w-80">
+                <input type="text" id="searchInput" placeholder="Rechercher une marque, un code..." 
+                    class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 transition">
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-6">
+            <p id="counter" class="text-sm text-slate-400">Chargement des codes promo...</p>
+            <span id="updateDate" class="text-xs text-slate-500"></span>
+        </div>
+
+        <!-- Grille des offres -->
+        <div id="promoGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Injecté dynamiquement par JavaScript -->
+        </div>
+    </main>
+
+    <!-- Script de chargement et de filtrage -->
+    <script>
+        let allOffers = [];
+
+        async function loadPromos() {
+            try {
+                // Chemin vers votre fichier JSON mis à jour par n8n sur GitHub
+                const response = await fetch('./data/promos.json');
+                if (!response.ok) throw new Error("Fichier introuvable");
+                
+                const data = await response.json();
+                allOffers = data.offers || [];
+                
+                if (data.updated_at) {
+                    const dateObj = new Date(data.updated_at);
+                    document.getElementById('updateDate').innerText = `Dernière synchro : ${dateObj.toLocaleDateString('fr-FR')} à ${dateObj.toLocaleTimeString('fr-FR', {hour: '2-digit', minute:'2-digit'})}`;
+                }
+
+                displayOffers(allOffers);
+            } catch (error) {
+                document.getElementById('promoGrid').innerHTML = `
+                    <div class="col-span-full text-center py-12 text-slate-500">
+                        <p class="text-lg">Aucun fichier de codes promo trouvé pour l'instant.</p>
+                        <p class="text-sm mt-2">Lancez votre workflow n8n pour générer le premier <code>promos.json</code> !</p>
+                    </div>`;
+                document.getElementById('counter').innerText = '0 offre disponible';
+            }
+        }
+
+        function displayOffers(offers) {
+            const grid = document.getElementById('promoGrid');
+            document.getElementById('counter').innerText = `${offers.length} offre${offers.length > 1 ? 's' : ''} active${offers.length > 1 ? 's' : ''}`;
+
+            if (offers.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-500">Aucun résultat ne correspond à votre recherche.</div>`;
+                return;
+            }
+
+            grid.innerHTML = offers.map(item => `
+                <div class="bg-cardbg border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg hover:border-slate-700 transition">
+                    <div>
+                        <div class="flex justify-between items-start gap-2 mb-3">
+                            <h3 class="font-bold text-lg text-white">${escapeHtml(item.brand)}</h3>
+                            <span class="bg-indigo-500/10 text-indigo-400 text-xs font-semibold px-2.5 py-1 rounded-md border border-indigo-500/20">Actif</span>
+                        </div>
+                        <p class="text-sm text-slate-300 mb-4">${escapeHtml(item.offer)}</p>
+                    </div>
+
+                    <div>
+                        <!-- Code Promo & Bouton Copier -->
+                        <div class="flex items-center justify-between bg-slate-900 border border-slate-800 rounded-lg p-2.5 mb-4">
+                            <span class="font-mono font-bold text-indigo-400 tracking-wider text-sm select-all">${escapeHtml(item.promo_code)}</span>
+                            <button onclick="copyCode('${escapeHtml(item.promo_code, true)}', this)" 
+                                class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded transition font-medium">
+                                Copier
+                            </button>
+                        </div>
+
+                        <!-- Liens d'action -->
+                        <div class="flex items-center justify-between text-xs pt-3 border-t border-slate-800/80">
+                            ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1">Visiter l'offre ↗</a>` : '<span></span>'}
+                            ${item.video_url ? `<a href="${item.video_url}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-200 transition flex items-center gap-1">🎥 Vidéo source</a>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function copyCode(code, btn) {
+            navigator.clipboard.writeText(code);
+            const originalText = btn.innerText;
+            btn.innerText = 'Copié !';
+            btn.classList.add('bg-green-600', 'text-white');
+            setTimeout(() => {
+                btn.innerText = originalText;
+                btn.classList.remove('bg-green-600', 'text-white');
+            }, 2000);
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/[&<>'"]/g, 
+                tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+            );
+        }
+
+        // Filtrage en temps réel
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allOffers.filter(item => 
+                item.brand.toLowerCase().includes(query) || 
+                item.promo_code.toLowerCase().includes(query) || 
+                item.offer.toLowerCase().includes(query)
+            );
+            displayOffers(filtered);
+        });
+
+        loadPromos();
+    </script>
+</body>
+</html>
