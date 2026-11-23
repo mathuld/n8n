@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrégateur de Codes Promo YouTube</title>
-    <!-- Tailwind CSS pour un design propre et rapide -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -14,6 +14,7 @@
                     colors: {
                         darkbg: '#0f172a',
                         cardbg: '#1e293b',
+                        tablehover: '#273548'
                     }
                 }
             }
@@ -24,7 +25,7 @@
 
     <!-- En-tête -->
     <header class="border-b border-slate-800 bg-darkbg/80 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex items-center space-x-3">
                 <span class="text-2xl">🎟️</span>
                 <h1 class="text-xl font-bold tracking-tight text-white">Promos YouTube</h1>
@@ -38,25 +39,40 @@
     </header>
 
     <!-- Contenu Principal -->
-    <main class="max-w-6xl mx-auto px-4 py-8">
+    <main class="max-w-7xl mx-auto px-4 py-8">
         <div class="flex justify-between items-center mb-6">
             <p id="counter" class="text-sm text-slate-400">Chargement des codes promo...</p>
             <span id="updateDate" class="text-xs text-slate-500"></span>
         </div>
 
-        <!-- Grille des offres -->
-        <div id="promoGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Injecté dynamiquement par JavaScript -->
+        <!-- Tableau des offres -->
+        <div class="bg-cardbg border border-slate-800 rounded-xl shadow-xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-slate-800 text-xs font-semibold text-slate-400 uppercase bg-slate-900/50">
+                            <th onclick="sortTable('brand')" class="py-3.5 px-6 cursor-pointer hover:text-indigo-400 transition">Marque ↕</th>
+                            <th onclick="sortTable('promo_code')" class="py-3.5 px-6 cursor-pointer hover:text-indigo-400 transition">Code Promo ↕</th>
+                            <th onclick="sortTable('offer')" class="py-3.5 px-6 cursor-pointer hover:text-indigo-400 transition">Offre / Réduction ↕</th>
+                            <th class="py-3.5 px-6 text-center">Lien Offre</th>
+                            <th class="py-3.5 px-6 text-center">Vidéo Source</th>
+                        </tr>
+                    </thead>
+                    <tbody id="promoTableBody" class="divide-y divide-slate-800/60 text-sm">
+                        <!-- Injecté dynamiquement par JavaScript -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </main>
 
-    <!-- Script de chargement et de filtrage -->
+    <!-- Script de chargement, de tri et de recherche -->
     <script>
         let allOffers = [];
+        let currentSort = { column: null, ascending: true };
 
         async function loadPromos() {
             try {
-                // Chemin vers votre fichier JSON mis à jour par n8n sur GitHub
                 const response = await fetch('./data/promos.json');
                 if (!response.ok) throw new Error("Fichier introuvable");
                 
@@ -70,52 +86,79 @@
 
                 displayOffers(allOffers);
             } catch (error) {
-                document.getElementById('promoGrid').innerHTML = `
-                    <div class="col-span-full text-center py-12 text-slate-500">
-                        <p class="text-lg">Aucun fichier de codes promo trouvé pour l'instant.</p>
-                        <p class="text-sm mt-2">Lancez votre workflow n8n pour générer le premier <code>promos.json</code> !</p>
-                    </div>`;
+                document.getElementById('promoTableBody').innerHTML = `
+                    <tr>
+                        <td colspan="5" class="text-center py-12 text-slate-500">
+                            <p class="text-lg">Aucun fichier de codes promo trouvé pour l'instant.</p>
+                            <p class="text-sm mt-2">Lancez votre workflow n8n pour générer le premier <code>promos.json</code> !</p>
+                        </td>
+                    </tr>`;
                 document.getElementById('counter').innerText = '0 offre disponible';
             }
         }
 
         function displayOffers(offers) {
-            const grid = document.getElementById('promoGrid');
+            const tbody = document.getElementById('promoTableBody');
             document.getElementById('counter').innerText = `${offers.length} offre${offers.length > 1 ? 's' : ''} active${offers.length > 1 ? 's' : ''}`;
 
             if (offers.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-500">Aucun résultat ne correspond à votre recherche.</div>`;
+                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-12 text-slate-500">Aucun résultat ne correspond à votre recherche.</td></tr>`;
                 return;
             }
 
-            grid.innerHTML = offers.map(item => `
-                <div class="bg-cardbg border border-slate-800 rounded-xl p-5 flex flex-col justify-between shadow-lg hover:border-slate-700 transition">
-                    <div>
-                        <div class="flex justify-between items-start gap-2 mb-3">
-                            <h3 class="font-bold text-lg text-white">${escapeHtml(item.brand)}</h3>
-                            <span class="bg-indigo-500/10 text-indigo-400 text-xs font-semibold px-2.5 py-1 rounded-md border border-indigo-500/20">Actif</span>
-                        </div>
-                        <p class="text-sm text-slate-300 mb-4">${escapeHtml(item.offer)}</p>
-                    </div>
-
-                    <div>
-                        <!-- Code Promo & Bouton Copier -->
-                        <div class="flex items-center justify-between bg-slate-900 border border-slate-800 rounded-lg p-2.5 mb-4">
-                            <span class="font-mono font-bold text-indigo-400 tracking-wider text-sm select-all">${escapeHtml(item.promo_code)}</span>
+            tbody.innerHTML = offers.map(item => `
+                <tr class="hover:bg-tablehover transition">
+                    <!-- Marque -->
+                    <td class="py-4 px-6 font-semibold text-white whitespace-nowrap">
+                        ${escapeHtml(item.brand)}
+                    </td>
+                    
+                    <!-- Code Promo avec bouton Copier -->
+                    <td class="py-4 px-6 whitespace-nowrap">
+                        <div class="inline-flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-lg px-3 py-1.5">
+                            <span class="font-mono font-bold text-indigo-400 tracking-wider select-all">${escapeHtml(item.promo_code)}</span>
                             <button onclick="copyCode('${escapeHtml(item.promo_code, true)}', this)" 
-                                class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded transition font-medium">
+                                class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white px-2.5 py-1 rounded transition font-medium">
                                 Copier
                             </button>
                         </div>
+                    </td>
 
-                        <!-- Liens d'action -->
-                        <div class="flex items-center justify-between text-xs pt-3 border-t border-slate-800/80">
-                            ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1">Visiter l'offre ↗</a>` : '<span></span>'}
-                            ${item.video_url ? `<a href="${item.video_url}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-200 transition flex items-center gap-1">🎥 Vidéo source</a>` : ''}
-                        </div>
-                    </div>
-                </div>
+                    <!-- Description de l'offre -->
+                    <td class="py-4 px-6 text-slate-300 max-w-xs truncate" title="${escapeHtml(item.offer)}">
+                        ${escapeHtml(item.offer)}
+                    </td>
+
+                    <!-- Lien de l'offre -->
+                    <td class="py-4 px-6 text-center whitespace-nowrap">
+                        ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 text-xs font-medium transition inline-flex items-center gap-1 bg-indigo-500/10 border border-indigo-500/20 px-2.5 py-1 rounded-md">Lien ↗</a>` : '<span class="text-slate-600">-</span>'}
+                    </td>
+
+                    <!-- Vidéo source -->
+                    <td class="py-4 px-6 text-center whitespace-nowrap">
+                        ${item.video_url ? `<a href="${item.video_url}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-200 text-xs font-medium transition inline-flex items-center gap-1 bg-slate-800 border border-slate-700 px-2.5 py-1 rounded-md">🎥 Vidéo</a>` : '<span class="text-slate-600">-</span>'}
+                    </td>
+                </tr>
             `).join('');
+        }
+
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.ascending = !currentSort.ascending;
+            } else {
+                currentSort.column = column;
+                currentSort.ascending = true;
+            }
+
+            const sorted = [...allOffers].sort((a, b) => {
+                let valA = (a[column] || "").toLowerCase();
+                let valB = (b[column] || "").toLowerCase();
+                if (valA < valB) return currentSort.ascending ? -1 : 1;
+                if (valA > valB) return currentSort.ascending ? 1 : -1;
+                return 0;
+            });
+
+            displayOffers(sorted);
         }
 
         function copyCode(code, btn) {
