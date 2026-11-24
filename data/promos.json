@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-24T19:33:31.618Z",
+  "updated_at": "2026-11-24T19:41:36.307Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 34,
-    "total_brands": 22,
-    "total_channels": 21,
+    "total_active_offers": 35,
+    "total_brands": 23,
+    "total_channels": 22,
     "top_brands": [
       {
         "brand": "Ultra Premium Direct",
@@ -25,6 +25,11 @@
         "brand": "Hostinger",
         "active_codes": 2,
         "total_mentions": 3
+      },
+      {
+        "brand": "Plaud",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Scuf",
@@ -207,6 +212,14 @@
         "total_mentions": 2
       },
       {
+        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+        "name": "HugoDécrypte - Actus du jour",
+        "handle": "@hugodecrypteactus",
+        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
         "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
         "name": "Léo - TechMaker",
         "handle": "@LeoTechMaker",
@@ -289,6 +302,26 @@
     ]
   },
   "offers": [
+    {
+      "id": "plaud|hugodecrypte|---c-n--0-r-t-ep3-4----w",
+      "brand": "Plaud",
+      "promo_code": "HUGODECRYPTE",
+      "discount_value": 22,
+      "discount_unit": "%",
+      "discount_label": "-22%",
+      "offer": "sur le Note Pro et tous les produits Plaud",
+      "link": "https://hugodecrypte.com/plaud-note-pro",
+      "video_url": "https://www.youtube.com/watch?v=RYf_RByRiEs",
+      "channel": {
+        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+        "name": "HugoDécrypte - Actus du jour",
+        "handle": "@hugodecrypteactus",
+        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:41:36.307Z",
+      "last_seen_at": "2026-11-24T19:41:36.307Z",
+      "mentions_count": 1
+    },
     {
       "id": "scuf|gotaga|----q-----97-er-mb6--0bw",
       "brand": "Scuf",
@@ -1148,7 +1181,13 @@
     "https://www.youtube.com/watch?v=Ywp86_g6-Uo",
     "https://www.youtube.com/watch?v=nALvqz53N0M",
     "https://www.youtube.com/watch?v=NqX6IKf-b8E",
-    "https://www.youtube.com/watch?v=ESS1wb3WqLo"
+    "https://www.youtube.com/watch?v=ESS1wb3WqLo",
+    "https://www.youtube.com/shorts/CJvVWVPKJYk",
+    "https://www.youtube.com/watch?v=7xSfbX3nbJQ",
+    "https://www.youtube.com/shorts/4mcE8UdjE4w",
+    "https://www.youtube.com/shorts/5brdfzfPG4o",
+    "https://www.youtube.com/shorts/rJxGH3Wu5oY",
+    "https://www.youtube.com/watch?v=RYf_RByRiEs"
   ],
   "channels_cache": {
     "@Squeezie": {
@@ -1365,6 +1404,11 @@
       "id": "UC9C2b4aXzt08QwjTKVlPA0A",
       "name": "HortyUnderscore",
       "avatar": "https://yt3.googleusercontent.com/tv7R9oA98CpENGAfhL0hqJ0PRbfYWp6Kf4-i4a7uHAeZy74YKQWUsy7zEZnemERRdlXIpap7jg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@hugodecrypteactus": {
+      "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+      "name": "HugoDécrypte - Actus du jour",
+      "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj"
     }
   }
 }
