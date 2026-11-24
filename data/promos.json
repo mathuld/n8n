@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T15:04:03.722Z",
+  "updated_at": "2026-11-24T15:18:13.832Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 35,
-    "total_brands": 12,
+    "total_active_offers": 27,
+    "total_brands": 9,
     "total_channels": 9,
     "top_brands": [
       {
         "brand": "Ultra Premium Direct",
-        "active_codes": 10,
-        "total_mentions": 10
+        "active_codes": 9,
+        "total_mentions": 9
       },
       {
         "brand": "HOLY",
@@ -20,11 +20,6 @@
         "brand": "carVertical",
         "active_codes": 4,
         "total_mentions": 4
-      },
-      {
-        "brand": "Revolut",
-        "active_codes": 4,
-        "total_mentions": 7
       },
       {
         "brand": "Emma Sleep",
@@ -42,27 +37,17 @@
         "total_mentions": 2
       },
       {
-        "brand": "Infomax",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
         "brand": "Honkai: Star Rail",
         "active_codes": 1,
         "total_mentions": 1
       },
       {
-        "brand": "Whatnot",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Revolut Business",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
         "brand": "Hyperx",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Infomax",
         "active_codes": 1,
         "total_mentions": 1
       }
@@ -73,32 +58,8 @@
         "name": "Chaîne inconnue",
         "handle": "",
         "avatar": null,
-        "active_codes": 14,
-        "total_mentions": 14
-      },
-      {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 4,
-        "total_mentions": 4
-      },
-      {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 4,
-        "total_mentions": 4
-      },
-      {
-        "id": "UCL9aTJb0ur4sovxcppAopEw",
-        "name": "Inoxtag",
-        "handle": "@Inoxtag",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 3,
-        "total_mentions": 3
+        "active_codes": 12,
+        "total_mentions": 12
       },
       {
         "id": "UC3TmGiSjX2Ix3qTjUnIIv4g",
@@ -109,20 +70,28 @@
         "total_mentions": 3
       },
       {
+        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
+        "name": "Pierre Croce",
+        "handle": "@PierreCroce",
+        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 3,
+        "total_mentions": 3
+      },
+      {
+        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
+        "name": "Djilsi",
+        "handle": "@Djilsi",
+        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
         "id": "UCow2IGnug1l3Xazkrc5jM_Q",
         "name": "JOYCA",
         "handle": "@Joyca",
         "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 2,
         "total_mentions": 2
-      },
-      {
-        "id": "UCAhaFPP6v3WCfK5Tjao0B7A",
-        "name": "Mastu",
-        "handle": "@Mastu",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kcL_PnNz1KEjLIQ7veCTq_0Vv7tktG0oth4M0_NZp8PRw=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 5
       },
       {
         "id": "UC-4M8AN08hw39nn2v91VuMQ",
@@ -137,6 +106,22 @@
         "name": "Amixem",
         "handle": "@Amixem",
         "avatar": "https://yt3.googleusercontent.com/mkxR4YNTUBJAjuq020488wM8yHSCZ4Kwn0etJyYyGTL86LnEiIzu5uhw8EwmPpRxavKYXyQ4Hmk=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCL9aTJb0ur4sovxcppAopEw",
+        "name": "Inoxtag",
+        "handle": "@Inoxtag",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCAhaFPP6v3WCfK5Tjao0B7A",
+        "name": "Mastu",
+        "handle": "@Mastu",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kcL_PnNz1KEjLIQ7veCTq_0Vv7tktG0oth4M0_NZp8PRw=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       }
@@ -245,46 +230,12 @@
       "mentions_count": 1
     },
     {
-      "id": "revolut|nocode|--------r1a2hn-fnp-sl-e-",
-      "brand": "Revolut",
-      "promo_code": null,
-      "offer": "Obtenez 20€ en utilisant votre carte",
-      "link": "https://get.revolut.com/z4lF/DJilsi",
-      "video_url": "https://www.youtube.com/watch?v=4eHzsUUo69w",
-      "channel": {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
       "id": "ultra-premium-direct|diner25|--------r1a2hn-fnp-sl-e-",
       "brand": "Ultra Premium Direct",
       "promo_code": "DINER25",
       "offer": "25% de réduction sur tout le site jusqu'au 21/11",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=djilsi-youtube-102026",
       "video_url": "https://www.youtube.com/watch?v=8UduMkgaBE8",
-      "channel": {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "whatnot|nocode|--------r1a2hn-fnp-sl-e-",
-      "brand": "Whatnot",
-      "promo_code": null,
-      "offer": "15€ offerts",
-      "link": "https://www.whatnot.com/invite/djilsi",
-      "video_url": "https://www.youtube.com/watch?v=ersw34RPmZ8",
       "channel": {
         "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
         "name": "Djilsi",
@@ -307,40 +258,6 @@
         "name": "Djilsi",
         "handle": "@Djilsi",
         "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "revolut|nocode|---9a--b0ur4sovxcpp-op-w",
-      "brand": "Revolut",
-      "promo_code": null,
-      "offer": "Gagnez 20 € en utilisant votre carte",
-      "link": "https://get.revolut.com/z4lF/inox",
-      "video_url": "https://www.youtube.com/watch?v=2wJuFzwBWkI",
-      "channel": {
-        "id": "UCL9aTJb0ur4sovxcppAopEw",
-        "name": "Inoxtag",
-        "handle": "@Inoxtag",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "revolut-business|nocode|---9a--b0ur4sovxcpp-op-w",
-      "brand": "Revolut Business",
-      "promo_code": null,
-      "offer": "Gagnez 80 € en ouvrant un compte pour votre entreprise",
-      "link": "https://revolutbusiness.onelink.me/jLOt/inox26",
-      "video_url": "https://www.youtube.com/watch?v=2wJuFzwBWkI",
-      "channel": {
-        "id": "UCL9aTJb0ur4sovxcppAopEw",
-        "name": "Inoxtag",
-        "handle": "@Inoxtag",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj"
       },
       "first_seen_at": "2026-11-24T15:03:37.898Z",
       "last_seen_at": "2026-11-24T15:03:37.898Z",
@@ -396,23 +313,6 @@
       "first_seen_at": "2026-11-24T15:03:37.898Z",
       "last_seen_at": "2026-11-24T15:03:37.898Z",
       "mentions_count": 1
-    },
-    {
-      "id": "revolut|nocode|---ha---6v3--f-5-jao0-7-",
-      "brand": "Revolut",
-      "promo_code": null,
-      "offer": "obtenir 20 € en utilisant votre carte",
-      "link": "https://get.revolut.com/z4lF/mastU",
-      "video_url": "https://www.youtube.com/watch?v=RyR2zY51hnI",
-      "channel": {
-        "id": "UCAhaFPP6v3WCfK5Tjao0B7A",
-        "name": "Mastu",
-        "handle": "@Mastu",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kcL_PnNz1KEjLIQ7veCTq_0Vv7tktG0oth4M0_NZp8PRw=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 4
     },
     {
       "id": "ultra-premium-direct|bluff|---ha---6v3--f-5-jao0-7-",
@@ -500,23 +400,6 @@
       "mentions_count": 1
     },
     {
-      "id": "revolut|nocode|----r3sp--5i5--gtd---0--",
-      "brand": "Revolut",
-      "promo_code": null,
-      "offer": "Obtenir 20€ de bonus de bienvenue",
-      "link": "https://get.revolut.com/z4lF/PierreCroCe",
-      "video_url": "https://www.youtube.com/watch?v=uQ6Yr6sLhYs",
-      "channel": {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:03:37.898Z",
-      "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
       "id": "prepmymeal|croce|----r3sp--5i5--gtd---0--",
       "brand": "PrepMyMeal",
       "promo_code": "CROCE",
@@ -582,40 +465,6 @@
       },
       "first_seen_at": "2026-11-24T15:03:37.898Z",
       "last_seen_at": "2026-11-24T15:03:37.898Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ultra-premium-direct|pepa|unknown",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "PEPA",
-      "offer": "-25% de réduction sur tout le site valable en France et en Belgique jusqu’au 08/12",
-      "link": "https://cutt.ly/CYRIL-UPD",
-      "video_url": "https://www.youtube.com/watch?v=EhDVpRtHMbc",
-      "channel": {
-        "id": "unknown",
-        "name": "Chaîne inconnue",
-        "handle": "",
-        "avatar": null
-      },
-      "first_seen_at": "2026-11-24T14:56:27.330Z",
-      "last_seen_at": "2026-11-24T14:57:55.022Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "infomax|cyril|unknown",
-      "brand": "Infomax",
-      "promo_code": "CYRIL",
-      "offer": "-20 € dès 300 € d’achat",
-      "link": "shorturl.at/nFS7G",
-      "video_url": "https://www.youtube.com/shorts/CAER7D1hT50",
-      "channel": {
-        "id": "unknown",
-        "name": "Chaîne inconnue",
-        "handle": "",
-        "avatar": null
-      },
-      "first_seen_at": "2026-11-24T14:56:27.330Z",
-      "last_seen_at": "2026-11-24T14:57:55.022Z",
       "mentions_count": 1
     }
   ],
