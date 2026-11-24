@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:35:04.293Z",
+  "updated_at": "2026-11-24T12:47:02.539Z",
   "count": 12,
   "offers": [
     {
@@ -12,23 +12,16 @@
     {
       "brand": "Ultra Premium Direct",
       "promo_code": "DINER25",
-      "offer": "25 % de réduction sur tout le site jusqu’au 21/11 (France et Belgique)",
+      "offer": "-25% sur tout le site",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=djilsi-youtube-102026",
       "video_url": "https://www.youtube.com/watch?v=8UduMkgaBE8"
     },
     {
       "brand": "Emma Sleep",
       "promo_code": "DJILSI",
-      "offer": "10 % de réduction valable jusqu’à fin 2026",
+      "offer": "10% de réduction jusqu'à fin 2026",
       "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=Djilsi&utm_code=DJILSI",
       "video_url": "https://www.youtube.com/watch?v=ffSyBdcD958"
-    },
-    {
-      "brand": "Hyperx",
-      "promo_code": "HYPERXOG",
-      "offer": "-30 % sur les accessoires Hyperx jusqu’au 28 octobre",
-      "link": "https://hyperx.gg/backtoog",
-      "video_url": "https://www.youtube.com/watch?v=T6q5ee7fISo"
     },
     {
       "brand": "carVertical",
@@ -40,28 +33,49 @@
     {
       "brand": "Ultra Premium Direct",
       "promo_code": "JUNADA",
-      "offer": "-25% + livraison offerte dès 15€ d’achat",
+      "offer": "-25 % + livraison offerte dès 15€ d’achat",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=joyca-youtube-27092026",
       "video_url": "https://www.youtube.com/watch?v=tE9MMqYu2Bk"
     },
     {
       "brand": "Ultra Premium Direct",
       "promo_code": "THEODORT",
-      "offer": "-25% pendant 48h puis -20% avec le code THEODORT sur tout le site",
+      "offer": "25 % de réduction pendant 48 h, puis 20 % avec le code THEODORT sur tout le site jusqu'au 26/03",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=theodort-youtube-12022026",
       "video_url": "https://www.youtube.com/watch?v=N9fTH1nDwjY"
     },
     {
-      "brand": "HOLY",
+      "brand": "Holy",
       "promo_code": "THEODORT5",
-      "offer": "-5€ sur ta première commande et -10% avec THEODORT ensuite",
+      "offer": "5 € de réduction sur votre première commande avec le code THEODORT5 et 10 % avec le code THEODORT",
       "link": "https://fr.weareholy.com/theodore/youtube",
       "video_url": "https://www.youtube.com/watch?v=WAsHh7rWRBI"
     },
     {
+      "brand": "Emma",
+      "promo_code": "CROCE",
+      "offer": "-10 % supplémentaire sur les produits en promotion",
+      "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=PierreCroce&utm_code=CROCE",
+      "video_url": "https://www.youtube.com/watch?v=0BKnHec27kk"
+    },
+    {
+      "brand": "PrepMyMeal",
+      "promo_code": "CROCE",
+      "offer": "10 % de réduction sur l’ensemble de votre commande",
+      "link": "https://creator.prepmymeal.com/PIERRECROCE",
+      "video_url": "https://www.youtube.com/watch?v=iXHJYFNWaks"
+    },
+    {
+      "brand": "carVertical",
+      "promo_code": "CROCE",
+      "offer": "-20 % sur votre rapport carVertical",
+      "link": "https://www.carvertical.deal/39G3J6K/2QZRGT/?source_id=INFL&sub1=CROCE",
+      "video_url": "https://www.youtube.com/watch?v=4ynYBGiJgt0"
+    },
+    {
       "brand": "Honkai: Star Rail",
       "promo_code": "HSRVER10XEDLFE",
-      "offer": "Réduction exclusive sur le jeu Honkai: Star Rail",
+      "offer": "Récompenses exclusives avec le code",
       "link": "https://hoyo.link/60H9CuHd",
       "video_url": "https://www.youtube.com/watch?v=B53MbXAfHIc"
     },
@@ -71,20 +85,6 @@
       "offer": "-20% sur tout le site",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=youtube&utm_medium=partenariat&utm_campaign=benjaminverrecchia",
       "video_url": "https://www.youtube.com/watch?v=NOvIuBeSwvM"
-    },
-    {
-      "brand": "Ultra Premium Direct",
-      "promo_code": "PEPA",
-      "offer": "-25% de réduction sur tout le site valable en France et en Belgique jusqu’au 08/12.",
-      "link": "https://cutt.ly/CYRIL-UPD",
-      "video_url": "https://www.youtube.com/watch?v=EhDVpRtHMbc"
-    },
-    {
-      "brand": "Infomax",
-      "promo_code": "CYRIL",
-      "offer": "-20 € dès 300 € d’achat",
-      "link": "https://shorturl.at/nFS7G",
-      "video_url": "https://www.youtube.com/shorts/CAER7D1hT50"
     }
   ]
 }
