@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-11-24T12:47:02.539Z",
-  "count": 12,
+  "updated_at": "2026-11-24T14:56:27.330Z",
+  "retention_days": 30,
+  "stats": {
+    "total_active_offers": 14,
+    "total_brands": 8,
+    "total_channels": 1,
+    "top_brands": [
+      {
+        "brand": "Ultra Premium Direct",
+        "active_codes": 5,
+        "total_mentions": 5
+      },
+      {
+        "brand": "HOLY",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "brand": "carVertical",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "brand": "Emma Sleep",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Emma",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "PrepMyMeal",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Honkai: Star Rail",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Infomax",
+        "active_codes": 1,
+        "total_mentions": 1
+      }
+    ],
+    "top_channels": [
+      {
+        "id": "unknown",
+        "name": "Chaîne inconnue",
+        "handle": "",
+        "avatar": null,
+        "active_codes": 14,
+        "total_mentions": 14
+      }
+    ]
+  },
   "offers": [
     {
       "brand": "HOLY",
@@ -85,6 +142,54 @@
       "offer": "-20% sur tout le site",
       "link": "https://www.ultrapremiumdirect.com/?utm_source=youtube&utm_medium=partenariat&utm_campaign=benjaminverrecchia",
       "video_url": "https://www.youtube.com/watch?v=NOvIuBeSwvM"
+    },
+    {
+      "id": "ultra-premium-direct|pepa|unknown",
+      "brand": "Ultra Premium Direct",
+      "promo_code": "PEPA",
+      "offer": "-25% de réduction sur tout le site valable en France et en Belgique jusqu’au 08/12.",
+      "link": "https://cutt.ly/CYRIL-UPD",
+      "video_url": "https://www.youtube.com/watch?v=EhDVpRtHMbc",
+      "channel": {
+        "id": "unknown",
+        "name": "Chaîne inconnue",
+        "handle": "",
+        "avatar": null
+      },
+      "first_seen_at": "2026-11-24T14:56:27.330Z",
+      "last_seen_at": "2026-11-24T14:56:27.330Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "infomax|cyril|unknown",
+      "brand": "Infomax",
+      "promo_code": "CYRIL",
+      "offer": "-20 € dès 300 € d’achat",
+      "link": "shorturl.at/nFS7G",
+      "video_url": "https://www.youtube.com/shorts/CAER7D1hT50",
+      "channel": {
+        "id": "unknown",
+        "name": "Chaîne inconnue",
+        "handle": "",
+        "avatar": null
+      },
+      "first_seen_at": "2026-11-24T14:56:27.330Z",
+      "last_seen_at": "2026-11-24T14:56:27.330Z",
+      "mentions_count": 1
     }
-  ]
+  ],
+  "processed_videos": [
+    "https://www.youtube.com/watch?v=siqU3JGmr_U",
+    "https://www.youtube.com/shorts/Tf0v6UDNfWg",
+    "https://www.youtube.com/watch?v=1MatxRymzwA",
+    "https://www.youtube.com/watch?v=SosvBGv6CJM",
+    "https://www.youtube.com/shorts/a2-rw-a1-Xs"
+  ],
+  "channels_cache": {
+    "@wankilfr": {
+      "id": "UCYGjxo5ifuhnmvhPvCc3DJQ",
+      "name": "Wankil Studio - Laink et Terracid",
+      "avatar": "https://yt3.googleusercontent.com/e8DYeGKwyaDgSc8AUmIvGdGsGU_c-_2ceQCb7qkbZZzZ7R5bppKMpL2vnlaIwS04O1Jx4kzd-Q=s900-c-k-c0x00ffffff-no-rj"
+    }
+  }
 }
