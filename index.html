@@ -16,8 +16,8 @@
       --text: #f3f5f8;
       --muted: #8b97b0;
       --accent: #ff3b5c;
-      --accent-soft: rgba(255, 59, 92, 0.14);
       --green: #22c55e;
+      --green-soft: rgba(34, 197, 94, 0.14);
       --radius: 12px;
     }
 
@@ -31,13 +31,8 @@
       min-height: 100vh;
     }
 
-    .container {
-      max-width: 1240px;
-      margin: 0 auto;
-      padding: 28px 20px 64px;
-    }
+    .container { max-width: 1280px; margin: 0 auto; padding: 28px 20px 64px; }
 
-    /* Header */
     header {
       display: flex;
       flex-wrap: wrap;
@@ -47,11 +42,7 @@
       margin-bottom: 24px;
     }
 
-    .brand-title {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+    .brand-title { display: flex; align-items: center; gap: 12px; }
 
     .logo-badge {
       width: 40px;
@@ -67,7 +58,6 @@
 
     h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; }
     .subtitle { color: var(--muted); font-size: 0.88rem; }
-
     .meta-badges { display: flex; flex-wrap: wrap; gap: 8px; }
 
     .pill {
@@ -80,7 +70,6 @@
       font-weight: 500;
     }
 
-    /* KPIs */
     .kpi-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -98,7 +87,6 @@
     .kpi-label { color: var(--muted); font-size: 0.8rem; font-weight: 500; }
     .kpi-value { font-size: 1.75rem; font-weight: 800; margin-top: 2px; letter-spacing: -0.03em; }
 
-    /* Tabs */
     .tabs {
       display: flex;
       gap: 8px;
@@ -127,7 +115,6 @@
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
-    /* Filters */
     .filters {
       display: grid;
       grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -185,11 +172,11 @@
       width: 100%;
       border-collapse: collapse;
       text-align: left;
-      min-width: 760px;
+      min-width: 860px;
     }
 
     thead th {
-      font-size: 0.75rem;
+      font-size: 0.74rem;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       color: var(--muted);
@@ -199,39 +186,31 @@
       background: rgba(255, 255, 255, 0.02);
     }
 
-    tbody tr {
-      border-bottom: 1px solid var(--border);
-      transition: background 0.12s;
-    }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background 0.12s; }
     tbody tr:last-child { border-bottom: none; }
     tbody tr:hover { background: var(--surface-hover); }
 
-    td {
-      padding: 14px 16px;
-      vertical-align: middle;
-      font-size: 0.9rem;
-    }
+    td { padding: 14px 16px; vertical-align: middle; font-size: 0.9rem; }
 
-    /* Fournisseur mis en avant */
-    .brand-cell {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
+    .brand-cell { display: flex; flex-direction: column; gap: 2px; }
+    .brand-name { font-size: 1.05rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
+    .brand-date { font-size: 0.74rem; color: var(--muted); }
 
-    .brand-name {
-      font-size: 1.05rem;
+    /* Badge Réduction normalisée */
+    .discount-badge {
+      display: inline-block;
+      background: var(--green-soft);
+      color: #4ade80;
+      border: 1px solid rgba(34, 197, 94, 0.3);
       font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.01em;
+      font-size: 0.92rem;
+      padding: 4px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
     }
 
-    .brand-date {
-      font-size: 0.74rem;
-      color: var(--muted);
-    }
+    .discount-empty { color: var(--muted); font-size: 0.85rem; }
 
-    /* Code promo */
     .code-cell {
       display: inline-flex;
       align-items: center;
@@ -244,7 +223,7 @@
 
     .code-text {
       font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       font-weight: 700;
       color: #ff6b84;
       letter-spacing: 0.04em;
@@ -260,24 +239,24 @@
       font-size: 0.78rem;
       font-weight: 600;
       cursor: pointer;
-      transition: 0.15s;
     }
     .copy-btn:hover { filter: brightness(1.1); }
     .copy-btn.copied { background: var(--green); }
 
-    .offer-cell {
-      color: #d4dce8;
-      max-width: 340px;
-    }
+    .offer-cell { color: #cbd5e1; font-size: 0.86rem; max-width: 300px; }
 
-    /* Chaîne YouTube plus discrète */
-    .channel-inline {
-      display: flex;
+    /* Chaîne cliquable */
+    .channel-link {
+      display: inline-flex;
       align-items: center;
       gap: 8px;
       color: var(--muted);
       font-size: 0.84rem;
+      text-decoration: none;
+      transition: color 0.15s;
     }
+    .channel-link:hover { color: #fff; }
+    .channel-link:hover .avatar-sm { border-color: var(--accent); }
 
     .avatar-sm {
       width: 26px;
@@ -287,6 +266,7 @@
       border: 1px solid var(--border);
       flex-shrink: 0;
       background: #232a3a;
+      transition: border-color 0.15s;
     }
 
     .avatar-sm-fallback {
@@ -302,12 +282,7 @@
       flex-shrink: 0;
     }
 
-    .links-cell {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-end;
-      white-space: nowrap;
-    }
+    .links-cell { display: flex; gap: 10px; justify-content: flex-end; white-space: nowrap; }
 
     .link-btn {
       color: #93c5fd;
@@ -321,16 +296,10 @@
     }
     .link-btn:hover { border-color: #60a5fa; color: #fff; }
 
-    .link-video {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.82rem;
-      font-weight: 500;
-      padding: 5px 8px;
-    }
+    .link-video { color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 500; padding: 5px 8px; }
     .link-video:hover { color: var(--text); text-decoration: underline; }
 
-    /* Stats Fournisseurs & Chaînes */
+    /* Stats & Chaînes */
     .stats-list { display: flex; flex-direction: column; gap: 10px; }
 
     .stat-row {
@@ -349,19 +318,8 @@
     .stat-brand-name { font-weight: 700; font-size: 1rem; }
     .stat-sub { color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
 
-    .bar-track {
-      background: #0d1017;
-      height: 9px;
-      border-radius: 999px;
-      overflow: hidden;
-      border: 1px solid var(--border);
-    }
-
-    .bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent), #ff7a59);
-      border-radius: 999px;
-    }
+    .bar-track { background: #0d1017; height: 9px; border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #ff7a59); border-radius: 999px; }
 
     .action-btn {
       background: var(--surface-hover);
@@ -376,11 +334,7 @@
     }
     .action-btn:hover { border-color: var(--accent); color: #fff; }
 
-    .channels-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 14px;
-    }
+    .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
 
     .channel-card {
       background: var(--surface);
@@ -394,32 +348,20 @@
       gap: 10px;
     }
 
-    .avatar-lg {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 1px solid var(--border);
-      background: #232a3a;
+    .channel-card-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: inherit;
     }
+    .channel-card-link:hover .stat-brand-name { color: var(--accent); }
 
-    .avatar-lg-fallback {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: #232a3a;
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      font-weight: 700;
-      font-size: 1.2rem;
-    }
+    .avatar-lg { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 1px solid var(--border); background: #232a3a; }
+    .avatar-lg-fallback { width: 60px; height: 60px; border-radius: 50%; background: #232a3a; color: var(--text); display: grid; place-items: center; font-weight: 700; font-size: 1.2rem; }
 
-    .empty-state {
-      text-align: center;
-      padding: 48px 20px;
-      color: var(--muted);
-    }
+    .empty-state { text-align: center; padding: 48px 20px; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -459,13 +401,14 @@
       <button class="tab-btn" data-tab="channels">Chaînes YouTube</button>
     </nav>
 
-    <!-- ONGLET 1 : TABLEAU DES CODES -->
+    <!-- ONGLET 1 : TABLEAU -->
     <section id="tab-offers" class="tab-panel active">
       <div class="filters">
-        <input type="search" id="search-input" placeholder="Rechercher un fournisseur, un code, une réduction..." />
+        <input type="search" id="search-input" placeholder="Rechercher un fournisseur, un code, un détail..." />
         <select id="brand-filter"><option value="">Tous les fournisseurs</option></select>
         <select id="channel-filter"><option value="">Toutes les chaînes</option></select>
         <select id="sort-filter">
+          <option value="discount">Meilleure réduction</option>
           <option value="brand">Fournisseur (A-Z)</option>
           <option value="recent">Plus récents</option>
         </select>
@@ -481,8 +424,9 @@
           <thead>
             <tr>
               <th>Fournisseur</th>
+              <th>Réduction</th>
               <th>Code Promo</th>
-              <th>Offre</th>
+              <th>Détails</th>
               <th>Chaîne</th>
               <th style="text-align: right;">Liens</th>
             </tr>
@@ -521,6 +465,45 @@
       const trimmed = String(url).trim();
       if (!trimmed) return null;
       return /^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`;
+    };
+
+    const getChannelUrl = (channel) => {
+      if (channel?.handle) {
+        const h = channel.handle.startsWith('@') ? channel.handle : `@${channel.handle}`;
+        return `https://www.youtube.com/${h}`;
+      }
+      if (channel?.id && channel.id !== 'unknown') {
+        return `https://www.youtube.com/channel/${channel.id}`;
+      }
+      return null;
+    };
+
+    // Normalisation / secours côté front pour la colonne Réduction + tri
+    const parseDiscount = (o) => {
+      let val = typeof o.discount_value === 'number' ? o.discount_value : Number(o.discount_value);
+      let unit = o.discount_unit || null;
+      const text = o.offer || '';
+
+      if (!val || isNaN(val)) {
+        const pct = text.match(/(\d+(?:[.,]\d+)?)\s*%/);
+        const eur = text.match(/(\d+(?:[.,]\d+)?)\s*€/);
+        const mois = text.match(/(\d+)\s*mois/i);
+        if (pct) { val = parseFloat(pct[1].replace(',', '.')); unit = '%'; }
+        else if (eur) { val = parseFloat(eur[1].replace(',', '.')); unit = '€'; }
+        else if (mois) { val = parseInt(mois[1], 10); unit = 'mois'; }
+        else { val = 0; unit = null; }
+      }
+
+      let label = o.discount_label || null;
+      if (!label && val) {
+        if (unit === '%') label = `-${val}%`;
+        else if (unit === '€') label = `-${val}€`;
+        else if (unit === 'mois') label = `${val} mois`;
+      }
+
+      // Score de tri : % en priorité, puis €, puis mois
+      const rank = unit === '%' ? 3 : unit === '€' ? 2 : unit === 'mois' ? 1 : 0;
+      return { val, unit, label, rank };
     };
 
     const formatRelativeDate = (iso) => {
@@ -567,6 +550,7 @@
       document.getElementById('brand-filter').value = brand.toLowerCase();
       document.getElementById('channel-filter').value = '';
       document.getElementById('search-input').value = '';
+      document.getElementById('sort-filter').value = 'discount';
       switchTab('offers');
       renderOffers();
     };
@@ -593,30 +577,48 @@
           (o.brand || '').toLowerCase().includes(query) ||
           (o.promo_code || '').toLowerCase().includes(query) ||
           (o.offer || '').toLowerCase().includes(query) ||
+          (o._disc.label || '').toLowerCase().includes(query) ||
           (o.channel?.name || '').toLowerCase().includes(query)
         );
       }
       if (brandFilter) list = list.filter(o => (o.brand || '').toLowerCase() === brandFilter);
       if (channelFilter) list = list.filter(o => (o.channel?.id || 'unknown') === channelFilter);
 
-      if (sortBy === 'recent') {
-        list.sort((a, b) => new Date(b.last_seen_at) - new Date(a.last_seen_at));
+      if (sortBy === 'discount') {
+        list.sort((a, b) =>
+          (b._disc.rank - a._disc.rank) ||
+          (b._disc.val - a._disc.val) ||
+          (a.brand || '').localeCompare(b.brand || '', 'fr')
+        );
+      } else if (sortBy === 'recent') {
+        list.sort((a, b) => new Date(b.last_seen_at || 0) - new Date(a.last_seen_at || 0));
       } else {
-        list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr'));
+        list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr') || (b._disc.val - a._disc.val));
       }
 
       document.getElementById('reset-filters').classList.toggle('visible', Boolean(query || brandFilter || channelFilter));
       document.getElementById('results-count').textContent = `${list.length} code${list.length > 1 ? 's' : ''} affiché${list.length > 1 ? 's' : ''}`;
 
       if (list.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="5" class="empty-state">Aucun code promo ne correspond à vos critères.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Aucun code promo ne correspond à vos critères.</td></tr>`;
         return;
       }
 
       tbody.innerHTML = list.map(o => {
         const offerLink = normalizeUrl(o.link);
         const videoLink = normalizeUrl(o.video_url);
+        const channelUrl = getChannelUrl(o.channel);
         const relDate = formatRelativeDate(o.last_seen_at);
+
+        const channelHtml = channelUrl
+          ? `<a class="channel-link" href="${escapeHtml(channelUrl)}" target="_blank" rel="noopener" title="Ouvrir la chaîne YouTube">
+               ${renderAvatar(o.channel, 'sm')}
+               <span>${escapeHtml(o.channel?.name || 'Chaîne')}</span>
+             </a>`
+          : `<div class="channel-link">
+               ${renderAvatar(o.channel, 'sm')}
+               <span>${escapeHtml(o.channel?.name || 'Chaîne inconnue')}</span>
+             </div>`;
 
         return `
           <tr>
@@ -627,18 +629,20 @@
               </div>
             </td>
             <td>
+              ${
+                o._disc.label
+                  ? `<span class="discount-badge">${escapeHtml(o._disc.label)}</span>`
+                  : `<span class="discount-empty">-</span>`
+              }
+            </td>
+            <td>
               <div class="code-cell">
                 <span class="code-text">${escapeHtml(o.promo_code)}</span>
                 <button class="copy-btn" onclick="copyCode(this, '${escapeHtml(o.promo_code)}')">Copier</button>
               </div>
             </td>
             <td class="offer-cell">${escapeHtml(o.offer || '-')}</td>
-            <td>
-              <div class="channel-inline">
-                ${renderAvatar(o.channel, 'sm')}
-                <span>${escapeHtml(o.channel?.name || 'Chaîne inconnue')}</span>
-              </div>
-            </td>
+            <td>${channelHtml}</td>
             <td>
               <div class="links-cell">
                 ${videoLink ? `<a class="link-video" href="${escapeHtml(videoLink)}" target="_blank" rel="noopener">Vidéo</a>` : ''}
@@ -660,11 +664,12 @@
 
       container.innerHTML = brandStats.map(b => {
         const pct = Math.round((b.active_codes / maxCodes) * 100);
+        const best = b.best_label ? ` • Meilleure offre : ${b.best_label}` : '';
         return `
           <div class="stat-row">
             <div>
               <div class="stat-brand-name">${escapeHtml(b.brand)}</div>
-              <div class="stat-sub">${b.active_codes} code${b.active_codes > 1 ? 's' : ''} actif${b.active_codes > 1 ? 's' : ''}</div>
+              <div class="stat-sub">${b.active_codes} code${b.active_codes > 1 ? 's' : ''} actif${b.active_codes > 1 ? 's' : ''}${escapeHtml(best)}</div>
             </div>
             <div class="bar-track"><div class="bar-fill" style="width: ${pct}%"></div></div>
             <button class="action-btn" onclick="filterByBrand('${escapeHtml(b.brand)}')">Voir les codes</button>
@@ -680,17 +685,23 @@
         return;
       }
 
-      container.innerHTML = channelStats.map(c => `
-        <div class="channel-card">
+      container.innerHTML = channelStats.map(c => {
+        const url = getChannelUrl(c);
+        const inner = `
           ${renderAvatar(c, 'lg')}
           <div>
             <div class="stat-brand-name">${escapeHtml(c.name)}</div>
             <div class="stat-sub">${escapeHtml(c.handle || '')}</div>
           </div>
-          <span class="pill">${c.active_codes} code${c.active_codes > 1 ? 's' : ''}</span>
-          <button class="action-btn" onclick="filterByChannel('${escapeHtml(c.id)}')">Voir ses codes</button>
-        </div>
-      `).join('');
+        `;
+        return `
+          <div class="channel-card">
+            ${url ? `<a class="channel-card-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${inner}</a>` : `<div class="channel-card-link">${inner}</div>`}
+            <span class="pill">${c.active_codes} code${c.active_codes > 1 ? 's' : ''}</span>
+            <button class="action-btn" onclick="filterByChannel('${escapeHtml(c.id)}')">Voir ses codes</button>
+          </div>
+        `;
+      }).join('');
     }
 
     function populateSelects() {
@@ -718,16 +729,24 @@
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
-        // Ne garde strictement que les offres avec un vrai code promo
-        validOffers = (data.offers || []).filter(o => o.promo_code && String(o.promo_code).trim() !== '');
+        // Filtre : uniquement les vrais codes promo + enrichissement réduction
+        validOffers = (data.offers || [])
+          .filter(o => o.promo_code && String(o.promo_code).trim() !== '')
+          .map(o => ({ ...o, _disc: parseDiscount(o) }));
 
-        // Recalcule les stats uniquement sur les offres avec code
         const bMap = {};
         const cMap = {};
         for (const o of validOffers) {
           const bKey = (o.brand || '').toLowerCase();
-          if (!bMap[bKey]) bMap[bKey] = { brand: o.brand, active_codes: 0 };
+          if (!bMap[bKey]) {
+            bMap[bKey] = { brand: o.brand, active_codes: 0, best_rank: -1, best_val: -1, best_label: null };
+          }
           bMap[bKey].active_codes += 1;
+          if (o._disc.rank > bMap[bKey].best_rank || (o._disc.rank === bMap[bKey].best_rank && o._disc.val > bMap[bKey].best_val)) {
+            bMap[bKey].best_rank = o._disc.rank;
+            bMap[bKey].best_val = o._disc.val;
+            bMap[bKey].best_label = o._disc.label;
+          }
 
           const cKey = o.channel?.id || 'unknown';
           if (!cMap[cKey]) {
@@ -758,7 +777,7 @@
         renderChannelsStats();
       } catch (err) {
         document.getElementById('offers-tbody').innerHTML = `
-          <tr><td colspan="5" class="empty-state">Impossible de charger <code>data/promos.json</code> (${escapeHtml(err.message)}).</td></tr>`;
+          <tr><td colspan="6" class="empty-state">Impossible de charger <code>data/promos.json</code> (${escapeHtml(err.message)}).</td></tr>`;
       }
     }
 
@@ -770,7 +789,7 @@
       document.getElementById('search-input').value = '';
       document.getElementById('brand-filter').value = '';
       document.getElementById('channel-filter').value = '';
-      document.getElementById('sort-filter').value = 'brand';
+      document.getElementById('sort-filter').value = 'discount';
       renderOffers();
     });
 
