@@ -14,13 +14,11 @@
       --surface-hover: #1b212e;
       --border: #242b3b;
       --text: #f3f5f8;
-      --muted: #94a0b8;
+      --muted: #8b97b0;
       --accent: #ff3b5c;
       --accent-soft: rgba(255, 59, 92, 0.14);
       --green: #22c55e;
-      --green-soft: rgba(34, 197, 94, 0.15);
-      --blue: #3b82f6;
-      --radius: 14px;
+      --radius: 12px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,7 +32,7 @@
     }
 
     .container {
-      max-width: 1200px;
+      max-width: 1240px;
       margin: 0 auto;
       padding: 28px 20px 64px;
     }
@@ -46,7 +44,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 16px;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
     }
 
     .brand-title {
@@ -56,26 +54,21 @@
     }
 
     .logo-badge {
-      width: 42px;
-      height: 42px;
-      border-radius: 12px;
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
       background: linear-gradient(135deg, var(--accent), #ff7a59);
       display: grid;
       place-items: center;
       font-weight: 800;
       font-size: 18px;
       color: #fff;
-      box-shadow: 0 8px 24px rgba(255, 59, 92, 0.28);
     }
 
-    h1 { font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; }
-    .subtitle { color: var(--muted); font-size: 0.9rem; }
+    h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); font-size: 0.88rem; }
 
-    .meta-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
+    .meta-badges { display: flex; flex-wrap: wrap; gap: 8px; }
 
     .pill {
       background: var(--surface);
@@ -87,30 +80,30 @@
       font-weight: 500;
     }
 
-    /* KPI Grid */
+    /* KPIs */
     .kpi-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 14px;
-      margin-bottom: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
     }
 
     .kpi-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px 20px;
+      padding: 16px 18px;
     }
 
-    .kpi-label { color: var(--muted); font-size: 0.82rem; font-weight: 500; }
-    .kpi-value { font-size: 1.9rem; font-weight: 800; margin-top: 4px; letter-spacing: -0.03em; }
+    .kpi-label { color: var(--muted); font-size: 0.8rem; font-weight: 500; }
+    .kpi-value { font-size: 1.75rem; font-weight: 800; margin-top: 2px; letter-spacing: -0.03em; }
 
     /* Tabs */
     .tabs {
       display: flex;
       gap: 8px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       overflow-x: auto;
     }
 
@@ -119,20 +112,17 @@
       border: none;
       color: var(--muted);
       font-family: inherit;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       font-weight: 600;
-      padding: 12px 18px;
+      padding: 11px 16px;
       cursor: pointer;
       border-bottom: 2px solid transparent;
-      transition: 0.2s;
+      transition: 0.15s;
       white-space: nowrap;
     }
 
     .tab-btn:hover { color: var(--text); }
-    .tab-btn.active {
-      color: var(--text);
-      border-bottom-color: var(--accent);
-    }
+    .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
 
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
@@ -141,41 +131,34 @@
     .filters {
       display: grid;
       grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 22px;
+      gap: 10px;
+      margin-bottom: 14px;
     }
 
-    @media (max-width: 860px) {
-      .filters { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 520px) {
-      .filters { grid-template-columns: 1fr; }
-    }
+    @media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 520px) { .filters { grid-template-columns: 1fr; } }
 
     input[type="search"], select {
       width: 100%;
       background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 11px 14px;
+      padding: 10px 14px;
       border-radius: 10px;
       font-family: inherit;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       outline: none;
-      transition: border-color 0.2s;
     }
 
-    input[type="search"]:focus, select:focus {
-      border-color: var(--accent);
-    }
+    input[type="search"]:focus, select:focus { border-color: var(--accent); }
 
     .filter-summary {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       color: var(--muted);
-      font-size: 0.88rem;
+      font-size: 0.85rem;
     }
 
     .reset-btn {
@@ -190,46 +173,115 @@
     }
     .reset-btn.visible { display: inline-block; }
 
-    /* Offers Grid */
-    .offers-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-      gap: 16px;
-    }
-
-    .card {
+    /* Table */
+    .table-wrap {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      min-width: 760px;
+    }
+
+    thead th {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 600;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.12s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--surface-hover); }
+
+    td {
+      padding: 14px 16px;
+      vertical-align: middle;
+      font-size: 0.9rem;
+    }
+
+    /* Fournisseur mis en avant */
+    .brand-cell {
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      transition: transform 0.15s, border-color 0.2s;
+      gap: 2px;
     }
 
-    .card:hover {
-      border-color: #364159;
-      transform: translateY(-2px);
+    .brand-name {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.01em;
     }
 
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 10px;
+    .brand-date {
+      font-size: 0.74rem;
+      color: var(--muted);
     }
 
-    .channel-row {
+    /* Code promo */
+    .code-cell {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0d1017;
+      border: 1px dashed #3a455e;
+      border-radius: 8px;
+      padding: 5px 6px 5px 11px;
+    }
+
+    .code-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #ff6b84;
+      letter-spacing: 0.04em;
+    }
+
+    .copy-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .copy-btn:hover { filter: brightness(1.1); }
+    .copy-btn.copied { background: var(--green); }
+
+    .offer-cell {
+      color: #d4dce8;
+      max-width: 340px;
+    }
+
+    /* Chaîne YouTube plus discrète */
+    .channel-inline {
       display: flex;
       align-items: center;
-      gap: 10px;
-      min-width: 0;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.84rem;
     }
 
-    .avatar {
-      width: 38px;
-      height: 38px;
+    .avatar-sm {
+      width: 26px;
+      height: 26px;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid var(--border);
@@ -237,152 +289,69 @@
       background: #232a3a;
     }
 
-    .avatar-fallback {
-      width: 38px;
-      height: 38px;
+    .avatar-sm-fallback {
+      width: 26px;
+      height: 26px;
       border-radius: 50%;
       background: #232a3a;
-      color: var(--text);
+      color: var(--muted);
       display: grid;
       place-items: center;
       font-weight: 700;
-      font-size: 0.85rem;
-      flex-shrink: 0;
-      border: 1px solid var(--border);
-    }
-
-    .channel-meta { min-width: 0; }
-    .channel-name {
-      font-weight: 600;
-      font-size: 0.9rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .channel-sub {
-      color: var(--muted);
-      font-size: 0.76rem;
-    }
-
-    .brand-tag {
-      background: var(--accent-soft);
-      color: #ff6b84;
-      font-weight: 700;
-      font-size: 0.78rem;
-      padding: 4px 10px;
-      border-radius: 999px;
-      white-space: nowrap;
+      font-size: 0.68rem;
       flex-shrink: 0;
     }
 
-    .offer-desc {
-      font-size: 0.92rem;
-      color: #dbe2ef;
-      flex-grow: 1;
-    }
-
-    .code-box {
+    .links-cell {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
       gap: 10px;
-      background: #0d1017;
-      border: 1px dashed #3a455e;
-      border-radius: 10px;
-      padding: 10px 12px;
+      justify-content: flex-end;
+      white-space: nowrap;
     }
 
-    .code-text {
-      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      color: #fff;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .code-text.no-code {
-      font-family: inherit;
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--muted);
-      letter-spacing: 0;
-    }
-
-    .copy-btn {
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      padding: 7px 13px;
-      border-radius: 8px;
-      font-family: inherit;
-      font-size: 0.82rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: 0.15s;
-      flex-shrink: 0;
-    }
-    .copy-btn:hover { filter: brightness(1.1); }
-    .copy-btn.copied { background: var(--green); }
-
-    .card-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      padding-top: 10px;
-      border-top: 1px solid var(--border);
-      font-size: 0.8rem;
-    }
-
-    .mentions-badge {
-      color: var(--muted);
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .card-links {
-      display: flex;
-      gap: 12px;
-    }
-
-    .card-links a {
+    .link-btn {
       color: #93c5fd;
       text-decoration: none;
+      font-size: 0.82rem;
       font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: rgba(59, 130, 246, 0.08);
     }
-    .card-links a:hover { text-decoration: underline; }
+    .link-btn:hover { border-color: #60a5fa; color: #fff; }
 
-    /* Stats Tables & Grids */
-    .stats-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    .link-video {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 5px 8px;
     }
+    .link-video:hover { color: var(--text); text-decoration: underline; }
+
+    /* Stats Fournisseurs & Chaînes */
+    .stats-list { display: flex; flex-direction: column; gap: 10px; }
 
     .stat-row {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 16px 20px;
+      padding: 15px 18px;
       display: grid;
       grid-template-columns: 1.4fr 2fr auto;
       align-items: center;
       gap: 16px;
     }
 
-    @media (max-width: 700px) {
-      .stat-row { grid-template-columns: 1fr; gap: 10px; }
-    }
+    @media (max-width: 700px) { .stat-row { grid-template-columns: 1fr; gap: 10px; } }
 
-    .stat-brand-name { font-weight: 700; font-size: 1.02rem; }
+    .stat-brand-name { font-weight: 700; font-size: 1rem; }
     .stat-sub { color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
 
     .bar-track {
       background: #0d1017;
-      height: 10px;
+      height: 9px;
       border-radius: 999px;
       overflow: hidden;
       border: 1px solid var(--border);
@@ -398,58 +367,58 @@
       background: var(--surface-hover);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 8px 14px;
-      border-radius: 9px;
+      padding: 7px 13px;
+      border-radius: 8px;
       font-family: inherit;
-      font-size: 0.84rem;
+      font-size: 0.82rem;
       font-weight: 600;
       cursor: pointer;
-      transition: 0.15s;
     }
-    .action-btn:hover {
-      border-color: var(--accent);
-      color: #fff;
-    }
+    .action-btn:hover { border-color: var(--accent); color: #fff; }
 
     .channels-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 14px;
     }
 
     .channel-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 20px;
+      padding: 18px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      gap: 12px;
+      gap: 10px;
     }
 
-    .channel-card .avatar,
-    .channel-card .avatar-fallback {
-      width: 68px;
-      height: 68px;
-      font-size: 1.4rem;
+    .avatar-lg {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      background: #232a3a;
     }
 
-    .channel-stats-pills {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      justify-content: center;
+    .avatar-lg-fallback {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #232a3a;
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 1.2rem;
     }
 
     .empty-state {
       text-align: center;
-      padding: 60px 20px;
+      padding: 48px 20px;
       color: var(--muted);
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
     }
   </style>
 </head>
@@ -460,7 +429,7 @@
         <div class="logo-badge">%</div>
         <div>
           <h1>Codes Promo YouTube</h1>
-          <div class="subtitle">Offres sponsorisées extraites automatiquement des vidéos</div>
+          <div class="subtitle">Répertoire automatique des codes promo par fournisseur</div>
         </div>
       </div>
       <div class="meta-badges">
@@ -471,20 +440,16 @@
 
     <section class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-label">Offres actives</div>
+        <div class="kpi-label">Codes promo actifs</div>
         <div class="kpi-value" id="kpi-offers">-</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">Fournisseurs / Marques</div>
+        <div class="kpi-label">Fournisseurs</div>
         <div class="kpi-value" id="kpi-brands">-</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">Chaînes avec promos</div>
+        <div class="kpi-label">Chaînes YouTube</div>
         <div class="kpi-value" id="kpi-channels">-</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Total mentions détectées</div>
-        <div class="kpi-value" id="kpi-mentions">-</div>
       </div>
     </section>
 
@@ -494,25 +459,37 @@
       <button class="tab-btn" data-tab="channels">Chaînes YouTube</button>
     </nav>
 
-    <!-- ONGLET 1 : OFFRES -->
+    <!-- ONGLET 1 : TABLEAU DES CODES -->
     <section id="tab-offers" class="tab-panel active">
       <div class="filters">
-        <input type="search" id="search-input" placeholder="Rechercher une marque, un code, un YouTubeur..." />
-        <select id="brand-filter"><option value="">Toutes les marques</option></select>
+        <input type="search" id="search-input" placeholder="Rechercher un fournisseur, un code, une réduction..." />
+        <select id="brand-filter"><option value="">Tous les fournisseurs</option></select>
         <select id="channel-filter"><option value="">Toutes les chaînes</option></select>
         <select id="sort-filter">
+          <option value="brand">Fournisseur (A-Z)</option>
           <option value="recent">Plus récents</option>
-          <option value="mentions">Plus mentionnés</option>
-          <option value="brand">Marque (A-Z)</option>
         </select>
       </div>
 
       <div class="filter-summary">
-        <span id="results-count">0 offre affichée</span>
-        <button id="reset-filters" class="reset-btn">Réinitialiser les filtres</button>
+        <span id="results-count">0 code affiché</span>
+        <button id="reset-filters" class="reset-btn">Réinitialiser</button>
       </div>
 
-      <div id="offers-container" class="offers-grid"></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Fournisseur</th>
+              <th>Code Promo</th>
+              <th>Offre</th>
+              <th>Chaîne</th>
+              <th style="text-align: right;">Liens</th>
+            </tr>
+          </thead>
+          <tbody id="offers-tbody"></tbody>
+        </table>
+      </div>
     </section>
 
     <!-- ONGLET 2 : STATS FOURNISSEURS -->
@@ -527,7 +504,9 @@
   </div>
 
   <script>
-    let appData = null;
+    let validOffers = [];
+    let brandStats = [];
+    let channelStats = [];
 
     const escapeHtml = (str) =>
       String(str ?? '')
@@ -546,53 +525,44 @@
 
     const formatRelativeDate = (iso) => {
       if (!iso) return '';
-      const diffMs = Date.now() - new Date(iso).getTime();
-      const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      const days = Math.floor((Date.now() - new Date(iso).getTime()) / (1000 * 60 * 60 * 24));
       if (days <= 0) return "Aujourd'hui";
       if (days === 1) return 'Hier';
       return `Il y a ${days} j`;
     };
 
-    const renderAvatar = (channel) => {
+    const renderAvatar = (channel, size = 'sm') => {
       const name = channel?.name || '?';
       const initials = name.slice(0, 2).toUpperCase();
+      const cls = size === 'lg' ? 'avatar-lg' : 'avatar-sm';
+      const fb = size === 'lg' ? 'avatar-lg-fallback' : 'avatar-sm-fallback';
       if (channel?.avatar) {
-        return `<img class="avatar" src="${escapeHtml(channel.avatar)}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.outerHTML='<div class=\\'avatar-fallback\\'>${escapeHtml(initials)}</div>'" />`;
+        return `<img class="${cls}" src="${escapeHtml(channel.avatar)}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.outerHTML='<div class=\\'${fb}\\'>${escapeHtml(initials)}</div>'" />`;
       }
-      return `<div class="avatar-fallback">${escapeHtml(initials)}</div>`;
+      return `<div class="${fb}">${escapeHtml(initials)}</div>`;
     };
 
-    // Gestion des onglets
     function switchTab(tabName) {
-      document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.tab === tabName);
-      });
-      document.querySelectorAll('.tab-panel').forEach(panel => {
-        panel.classList.toggle('active', panel.id === `tab-${tabName}`);
-      });
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabName));
+      document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.toggle('active', panel.id === `tab-${tabName}`));
     }
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
     });
 
-    // Copie du code promo
     window.copyCode = async (btn, code) => {
       try {
         await navigator.clipboard.writeText(code);
-        const original = btn.textContent;
+        const orig = btn.textContent;
         btn.textContent = 'Copié !';
         btn.classList.add('copied');
-        setTimeout(() => {
-          btn.textContent = original;
-          btn.classList.remove('copied');
-        }, 1600);
-      } catch (e) {
+        setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 1500);
+      } catch {
         alert(`Code promo : ${code}`);
       }
     };
 
-    // Filtre rapide depuis les stats
     window.filterByBrand = (brand) => {
       document.getElementById('brand-filter').value = brand.toLowerCase();
       document.getElementById('channel-filter').value = '';
@@ -610,106 +580,91 @@
     };
 
     function renderOffers() {
-      const container = document.getElementById('offers-container');
+      const tbody = document.getElementById('offers-tbody');
       const query = document.getElementById('search-input').value.trim().toLowerCase();
       const brandFilter = document.getElementById('brand-filter').value;
       const channelFilter = document.getElementById('channel-filter').value;
       const sortBy = document.getElementById('sort-filter').value;
 
-      let list = [...(appData.offers || [])];
+      let list = [...validOffers];
 
       if (query) {
         list = list.filter(o =>
           (o.brand || '').toLowerCase().includes(query) ||
           (o.promo_code || '').toLowerCase().includes(query) ||
           (o.offer || '').toLowerCase().includes(query) ||
-          (o.channel?.name || '').toLowerCase().includes(query) ||
-          (o.channel?.handle || '').toLowerCase().includes(query)
+          (o.channel?.name || '').toLowerCase().includes(query)
         );
       }
-      if (brandFilter) {
-        list = list.filter(o => (o.brand || '').toLowerCase() === brandFilter);
-      }
-      if (channelFilter) {
-        list = list.filter(o => (o.channel?.id || 'unknown') === channelFilter);
-      }
+      if (brandFilter) list = list.filter(o => (o.brand || '').toLowerCase() === brandFilter);
+      if (channelFilter) list = list.filter(o => (o.channel?.id || 'unknown') === channelFilter);
 
-      if (sortBy === 'mentions') {
-        list.sort((a, b) => (b.mentions_count || 1) - (a.mentions_count || 1));
-      } else if (sortBy === 'brand') {
-        list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr'));
-      } else {
+      if (sortBy === 'recent') {
         list.sort((a, b) => new Date(b.last_seen_at) - new Date(a.last_seen_at));
+      } else {
+        list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr'));
       }
 
-      const hasFilter = Boolean(query || brandFilter || channelFilter);
-      document.getElementById('reset-filters').classList.toggle('visible', hasFilter);
-      document.getElementById('results-count').textContent =
-        `${list.length} offre${list.length > 1 ? 's' : ''} affichée${list.length > 1 ? 's' : ''}`;
+      document.getElementById('reset-filters').classList.toggle('visible', Boolean(query || brandFilter || channelFilter));
+      document.getElementById('results-count').textContent = `${list.length} code${list.length > 1 ? 's' : ''} affiché${list.length > 1 ? 's' : ''}`;
 
       if (list.length === 0) {
-        container.innerHTML = `<div class="empty-state" style="grid-column: 1 / -1;">Aucune offre ne correspond à vos critères.</div>`;
+        tbody.innerHTML = `<tr><td colspan="5" class="empty-state">Aucun code promo ne correspond à vos critères.</td></tr>`;
         return;
       }
 
-      container.innerHTML = list.map(o => {
+      tbody.innerHTML = list.map(o => {
         const offerLink = normalizeUrl(o.link);
         const videoLink = normalizeUrl(o.video_url);
-        const mentions = o.mentions_count || 1;
         const relDate = formatRelativeDate(o.last_seen_at);
 
         return `
-          <article class="card">
-            <div class="card-top">
-              <div class="channel-row">
-                ${renderAvatar(o.channel)}
-                <div class="channel-meta">
-                  <div class="channel-name">${escapeHtml(o.channel?.name || 'Chaîne inconnue')}</div>
-                  <div class="channel-sub">${escapeHtml(o.channel?.handle || '')} ${relDate ? `• ${relDate}` : ''}</div>
-                </div>
+          <tr>
+            <td>
+              <div class="brand-cell">
+                <span class="brand-name">${escapeHtml(o.brand)}</span>
+                ${relDate ? `<span class="brand-date">${relDate}</span>` : ''}
               </div>
-              <span class="brand-tag">${escapeHtml(o.brand)}</span>
-            </div>
-
-            <div class="offer-desc">${escapeHtml(o.offer || 'Offre sponsorisée')}</div>
-
-            <div class="code-box">
-              ${
-                o.promo_code
-                  ? `<span class="code-text">${escapeHtml(o.promo_code)}</span>
-                     <button class="copy-btn" onclick="copyCode(this, '${escapeHtml(o.promo_code)}')">Copier</button>`
-                  : `<span class="code-text no-code">Aucun code requis (lien direct)</span>`
-              }
-            </div>
-
-            <div class="card-footer">
-              <span class="mentions-badge">Vu ${mentions} fois</span>
-              <div class="card-links">
-                ${videoLink ? `<a href="${escapeHtml(videoLink)}" target="_blank" rel="noopener">Vidéo</a>` : ''}
-                ${offerLink ? `<a href="${escapeHtml(offerLink)}" target="_blank" rel="noopener">Voir l'offre →</a>` : ''}
+            </td>
+            <td>
+              <div class="code-cell">
+                <span class="code-text">${escapeHtml(o.promo_code)}</span>
+                <button class="copy-btn" onclick="copyCode(this, '${escapeHtml(o.promo_code)}')">Copier</button>
               </div>
-            </div>
-          </article>
+            </td>
+            <td class="offer-cell">${escapeHtml(o.offer || '-')}</td>
+            <td>
+              <div class="channel-inline">
+                ${renderAvatar(o.channel, 'sm')}
+                <span>${escapeHtml(o.channel?.name || 'Chaîne inconnue')}</span>
+              </div>
+            </td>
+            <td>
+              <div class="links-cell">
+                ${videoLink ? `<a class="link-video" href="${escapeHtml(videoLink)}" target="_blank" rel="noopener">Vidéo</a>` : ''}
+                ${offerLink ? `<a class="link-btn" href="${escapeHtml(offerLink)}" target="_blank" rel="noopener">Offre →</a>` : ''}
+              </div>
+            </td>
+          </tr>
         `;
       }).join('');
     }
 
     function renderBrandsStats() {
       const container = document.getElementById('brands-container');
-      const brands = appData.stats?.top_brands || [];
-      if (brands.length === 0) {
+      if (brandStats.length === 0) {
         container.innerHTML = `<div class="empty-state">Aucune statistique fournisseur disponible.</div>`;
         return;
       }
-      const maxCodes = Math.max(...brands.map(b => b.active_codes), 1);
+      const maxCodes = Math.max(...brandStats.map(b => b.active_codes), 1);
 
-      container.innerHTML = brands.map(b => {
+      container.innerHTML = brandStats.map(b => {
         const pct = Math.round((b.active_codes / maxCodes) * 100);
         return `
           <div class="stat-row">
             <div>
               <div class="stat-brand-name">${escapeHtml(b.brand)}</div>
-              <div class="stat-sub">${b.active_codes} code${b.active_codes > 1 ? 's' : ''} actif${b.active_codes > 1 ? 's' : ''} • ${b.total_mentions} mention${b.total_mentions > 1 ? 's' : ''}</div>
+              <div class="stat-sub">${b.active_codes} code${b.active_codes > 1 ? 's' : ''} actif${b.active_codes > 1 ? 's' : ''}</div>
             </div>
             <div class="bar-track"><div class="bar-fill" style="width: ${pct}%"></div></div>
             <button class="action-btn" onclick="filterByBrand('${escapeHtml(b.brand)}')">Voir les codes</button>
@@ -720,23 +675,19 @@
 
     function renderChannelsStats() {
       const container = document.getElementById('channels-container');
-      const channels = appData.stats?.top_channels || [];
-      if (channels.length === 0) {
+      if (channelStats.length === 0) {
         container.innerHTML = `<div class="empty-state" style="grid-column: 1 / -1;">Aucune chaîne disponible.</div>`;
         return;
       }
 
-      container.innerHTML = channels.map(c => `
+      container.innerHTML = channelStats.map(c => `
         <div class="channel-card">
-          ${renderAvatar(c)}
+          ${renderAvatar(c, 'lg')}
           <div>
             <div class="stat-brand-name">${escapeHtml(c.name)}</div>
             <div class="stat-sub">${escapeHtml(c.handle || '')}</div>
           </div>
-          <div class="channel-stats-pills">
-            <span class="pill">${c.active_codes} offre${c.active_codes > 1 ? 's' : ''}</span>
-            <span class="pill">${c.total_mentions} mention${c.total_mentions > 1 ? 's' : ''}</span>
-          </div>
+          <span class="pill">${c.active_codes} code${c.active_codes > 1 ? 's' : ''}</span>
           <button class="action-btn" onclick="filterByChannel('${escapeHtml(c.id)}')">Voir ses codes</button>
         </div>
       `).join('');
@@ -746,16 +697,14 @@
       const brandSelect = document.getElementById('brand-filter');
       const channelSelect = document.getElementById('channel-filter');
 
-      const brands = [...(appData.stats?.top_brands || [])].sort((a, b) => a.brand.localeCompare(b.brand, 'fr'));
-      brands.forEach(b => {
+      [...brandStats].sort((a, b) => a.brand.localeCompare(b.brand, 'fr')).forEach(b => {
         const opt = document.createElement('option');
         opt.value = b.brand.toLowerCase();
         opt.textContent = `${b.brand} (${b.active_codes})`;
         brandSelect.appendChild(opt);
       });
 
-      const channels = [...(appData.stats?.top_channels || [])].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
-      channels.forEach(c => {
+      [...channelStats].sort((a, b) => a.name.localeCompare(b.name, 'fr')).forEach(c => {
         const opt = document.createElement('option');
         opt.value = c.id;
         opt.textContent = `${c.name} (${c.active_codes})`;
@@ -767,33 +716,52 @@
       try {
         const res = await fetch(`./data/promos.json?t=${Date.now()}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        appData = await res.json();
+        const data = await res.json();
 
-        // Header & KPIs
-        const updated = appData.updated_at ? new Date(appData.updated_at).toLocaleString('fr-FR') : '-';
+        // Ne garde strictement que les offres avec un vrai code promo
+        validOffers = (data.offers || []).filter(o => o.promo_code && String(o.promo_code).trim() !== '');
+
+        // Recalcule les stats uniquement sur les offres avec code
+        const bMap = {};
+        const cMap = {};
+        for (const o of validOffers) {
+          const bKey = (o.brand || '').toLowerCase();
+          if (!bMap[bKey]) bMap[bKey] = { brand: o.brand, active_codes: 0 };
+          bMap[bKey].active_codes += 1;
+
+          const cKey = o.channel?.id || 'unknown';
+          if (!cMap[cKey]) {
+            cMap[cKey] = {
+              id: cKey,
+              name: o.channel?.name || 'Chaîne inconnue',
+              handle: o.channel?.handle || '',
+              avatar: o.channel?.avatar || null,
+              active_codes: 0
+            };
+          }
+          cMap[cKey].active_codes += 1;
+        }
+
+        brandStats = Object.values(bMap).sort((a, b) => b.active_codes - a.active_codes);
+        channelStats = Object.values(cMap).sort((a, b) => b.active_codes - a.active_codes);
+
+        const updated = data.updated_at ? new Date(data.updated_at).toLocaleString('fr-FR') : '-';
         document.getElementById('updated-at').textContent = `Mis à jour : ${updated}`;
-        document.getElementById('retention-badge').textContent = `Rétention : ${appData.retention_days || 30} jours`;
-
-        const totalMentions = (appData.offers || []).reduce((acc, o) => acc + (o.mentions_count || 1), 0);
-        document.getElementById('kpi-offers').textContent = appData.stats?.total_active_offers ?? (appData.offers?.length || 0);
-        document.getElementById('kpi-brands').textContent = appData.stats?.total_brands ?? 0;
-        document.getElementById('kpi-channels').textContent = appData.stats?.total_channels ?? 0;
-        document.getElementById('kpi-mentions').textContent = totalMentions;
+        document.getElementById('retention-badge').textContent = `Rétention : ${data.retention_days || 30} jours`;
+        document.getElementById('kpi-offers').textContent = validOffers.length;
+        document.getElementById('kpi-brands').textContent = brandStats.length;
+        document.getElementById('kpi-channels').textContent = channelStats.length;
 
         populateSelects();
         renderOffers();
         renderBrandsStats();
         renderChannelsStats();
       } catch (err) {
-        document.getElementById('offers-container').innerHTML = `
-          <div class="empty-state" style="grid-column: 1 / -1;">
-            Impossible de charger <code>data/promos.json</code> (${escapeHtml(err.message)}).<br/>
-            Vérifiez que le fichier existe bien sur GitHub et que vous consultez le site via GitHub Pages.
-          </div>`;
+        document.getElementById('offers-tbody').innerHTML = `
+          <tr><td colspan="5" class="empty-state">Impossible de charger <code>data/promos.json</code> (${escapeHtml(err.message)}).</td></tr>`;
       }
     }
 
-    // Écouteurs de filtres
     ['search-input', 'brand-filter', 'channel-filter', 'sort-filter'].forEach(id => {
       document.getElementById(id).addEventListener('input', renderOffers);
     });
@@ -802,7 +770,7 @@
       document.getElementById('search-input').value = '';
       document.getElementById('brand-filter').value = '';
       document.getElementById('channel-filter').value = '';
-      document.getElementById('sort-filter').value = 'recent';
+      document.getElementById('sort-filter').value = 'brand';
       renderOffers();
     });
 
