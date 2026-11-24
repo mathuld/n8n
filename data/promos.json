@@ -1,25 +1,90 @@
 {
-  "updated_at": "2026-11-24T17:00:49.711Z",
+  "updated_at": "2026-11-24T19:33:31.618Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 17,
-    "total_brands": 9,
-    "total_channels": 9,
+    "total_active_offers": 34,
+    "total_brands": 22,
+    "total_channels": 21,
     "top_brands": [
       {
         "brand": "Ultra Premium Direct",
-        "active_codes": 6,
-        "total_mentions": 6
+        "active_codes": 7,
+        "total_mentions": 7
       },
       {
         "brand": "HOLY",
+        "active_codes": 4,
+        "total_mentions": 4
+      },
+      {
+        "brand": "CarVertical",
         "active_codes": 3,
+        "total_mentions": 4
+      },
+      {
+        "brand": "Hostinger",
+        "active_codes": 2,
         "total_mentions": 3
       },
       {
-        "brand": "carVertical",
-        "active_codes": 2,
-        "total_mentions": 2
+        "brand": "Scuf",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Logitech G",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Delko",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Ubigi",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Incogni",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Auto M6 Ultra+ 2.0",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "RayNeo",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "HBADA",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Saily",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Xiaomi",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Honkai Star Rail",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "Yepoda",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Emma Sleep",
@@ -70,6 +135,46 @@
         "total_mentions": 3
       },
       {
+        "id": "UCCFqUJYKT97UerMmb6DM0bw",
+        "name": "GOTAGA",
+        "handle": "@Gotaga",
+        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 3
+      },
+      {
+        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+        "name": "Micode",
+        "handle": "@Micode",
+        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "id": "UCWedHS9qKebauVIK2J7383g",
+        "name": "Underscore_",
+        "handle": "@Underscore_",
+        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 3
+      },
+      {
+        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+        "name": "RebeuDeter",
+        "handle": "@RebeuDeter",
+        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
         "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
         "name": "Djilsi",
         "handle": "@Djilsi",
@@ -102,6 +207,62 @@
         "total_mentions": 2
       },
       {
+        "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
+        "name": "Léo - TechMaker",
+        "handle": "@LeoTechMaker",
+        "avatar": "https://yt3.googleusercontent.com/wwCy41EXBNY-h82fP_V3Gv9hv7WkRa_mWMVn4_wMcNSdlUQXbpcaRNSP4DIDYMnGA5v2No_F_w=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
+        "name": "Jojol",
+        "handle": "@Jojol",
+        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
+        "name": "Nowtech",
+        "handle": "@nowtech",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UC71wXCoTvVy63AW2s0jdwvw",
+        "name": "Gurky",
+        "handle": "@Gurky",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mPJbLsexZQv83zkNtbjUiqVbO0hLKaycKEd9I7gY71ACg=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UC6Uole8KsZP63g8qYgFAmkQ",
+        "name": "Mahdi Ba",
+        "handle": "@MahdiBa",
+        "avatar": "https://yt3.googleusercontent.com/QUgTQKG8DrdhGzLY0msCi5fZPctk1b-uMDLmzonGNiIwNqWmL4PwOGXY8rLnd_VkgfLEfYU3yw=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
+        "name": "Fuze III",
+        "handle": "@FuzeIII",
+        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
+        "name": "Maghla",
+        "handle": "@Maghla",
+        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
         "id": "UCgvqvBoSHB1ctlyyhoHrGwQ",
         "name": "Amixem",
         "handle": "@Amixem",
@@ -128,6 +289,346 @@
     ]
   },
   "offers": [
+    {
+      "id": "scuf|gotaga|----q-----97-er-mb6--0bw",
+      "brand": "Scuf",
+      "promo_code": "GOTAGA",
+      "discount_value": 5,
+      "discount_unit": "%",
+      "discount_label": "-5%",
+      "offer": "5% de réduction sur votre achat",
+      "link": "http://scuf.co/Gotaga",
+      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
+      "channel": {
+        "id": "UCCFqUJYKT97UerMmb6DM0bw",
+        "name": "GOTAGA",
+        "handle": "@Gotaga",
+        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "logitech-g|gotaga|----q-----97-er-mb6--0bw",
+      "brand": "Logitech G",
+      "promo_code": "GOTAGA",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur votre achat",
+      "link": "https://logi.gg/GOTAGA",
+      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
+      "channel": {
+        "id": "UCCFqUJYKT97UerMmb6DM0bw",
+        "name": "GOTAGA",
+        "handle": "@Gotaga",
+        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
+      "brand": "CarVertical",
+      "promo_code": "SYLVAIN",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20% de réduction sur votre rapport",
+      "link": "https://www.carvertical.com/sylvain",
+      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
+      "channel": {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 2
+    },
+    {
+      "id": "delko|sylvain20|---9gf--ym---m5-8lf4-ht-",
+      "brand": "Delko",
+      "promo_code": "SYLVAIN20",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20% de réduction sur la carrosserie",
+      "link": "https://delko.short.gy/jeu-concours-delko-carrosserie",
+      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
+      "channel": {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "hostinger|micode|---nvx----i--o-t--p----w",
+      "brand": "Hostinger",
+      "promo_code": "MICODE",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur les plans de 12 mois et plus",
+      "link": "https://www.hostinger.fr/micode",
+      "video_url": "https://www.youtube.com/watch?v=x8csw1oU7nk",
+      "channel": {
+        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+        "name": "Micode",
+        "handle": "@Micode",
+        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "ubigi|micode|---nvx----i--o-t--p----w",
+      "brand": "Ubigi",
+      "promo_code": "MICODE",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "-10% de réduction",
+      "link": "https://rebrand.ly/UbigixMicode",
+      "video_url": "https://www.youtube.com/watch?v=65WcnNsAkL4",
+      "channel": {
+        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+        "name": "Micode",
+        "handle": "@Micode",
+        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "hostinger|underscore|---ed--9q-ebau---2-7383g",
+      "brand": "Hostinger",
+      "promo_code": "UNDERSCORE",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur les plans de 12 mois et plus",
+      "link": "https://www.hostinger.fr/underscore",
+      "video_url": "https://www.youtube.com/watch?v=_FGfw1Co36A",
+      "channel": {
+        "id": "UCWedHS9qKebauVIK2J7383g",
+        "name": "Underscore_",
+        "handle": "@Underscore_",
+        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 2
+    },
+    {
+      "id": "incogni|underscore|---ed--9q-ebau---2-7383g",
+      "brand": "Incogni",
+      "promo_code": "UNDERSCORE",
+      "discount_value": 60,
+      "discount_unit": "%",
+      "discount_label": "-60%",
+      "offer": "réduction de 60% sur l'abonnement annuel",
+      "link": "https://incogni.com/underscore",
+      "video_url": "https://www.youtube.com/watch?v=TMRT1mObK8U",
+      "channel": {
+        "id": "UCWedHS9qKebauVIK2J7383g",
+        "name": "Underscore_",
+        "handle": "@Underscore_",
+        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "auto-m6-ultra--2-0|kolbonus|---hy--yl--5---l1l-92ft-",
+      "brand": "Auto M6 Ultra+ 2.0",
+      "promo_code": "KOLBONUS",
+      "discount_value": 280,
+      "discount_unit": "€",
+      "discount_label": "-280€",
+      "offer": "Black Friday : jusqu'à 280€ off + 50€ de goodies offerts",
+      "link": "https://www.autofull.eu/a/omnitrack/8da4cac3",
+      "video_url": "https://www.youtube.com/watch?v=qpGNO8wkTJA",
+      "channel": {
+        "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
+        "name": "Léo - TechMaker",
+        "handle": "@LeoTechMaker",
+        "avatar": "https://yt3.googleusercontent.com/wwCy41EXBNY-h82fP_V3Gv9hv7WkRa_mWMVn4_wMcNSdlUQXbpcaRNSP4DIDYMnGA5v2No_F_w=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "rayneo|rayneobfcm|---y0l-8-h-7l-tst7-neg--",
+      "brand": "RayNeo",
+      "promo_code": "RAYNEOBFCM",
+      "discount_value": 5,
+      "discount_unit": "%",
+      "discount_label": "-5%",
+      "offer": "5% en plus",
+      "link": "https://dada.link/XjUxSd",
+      "video_url": "https://www.youtube.com/watch?v=cPVNKmQYEhI",
+      "channel": {
+        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
+        "name": "Jojol",
+        "handle": "@Jojol",
+        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "hbada|nowteche|---w-9--q--f---4-k--lf2g",
+      "brand": "HBADA",
+      "promo_code": "NOWTECHE",
+      "discount_value": 5,
+      "discount_unit": "%",
+      "discount_label": "-5%",
+      "offer": "5% de réduction supplémentaire sur les chaises ergonomiques HBADA",
+      "link": "https://bit.ly/4yY31nU",
+      "video_url": "https://www.youtube.com/watch?v=HorHxVzrnjg",
+      "channel": {
+        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
+        "name": "Nowtech",
+        "handle": "@nowtech",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "holy|gurky|--71w--o-v-y63--2s0jdwvw",
+      "brand": "HOLY",
+      "promo_code": "Gurky",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "pour 10% de réduction",
+      "link": "https://fr.holy.com/Gurky/Youtube",
+      "video_url": "https://www.youtube.com/watch?v=o--82BW8M2w",
+      "channel": {
+        "id": "UC71wXCoTvVy63AW2s0jdwvw",
+        "name": "Gurky",
+        "handle": "@Gurky",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mPJbLsexZQv83zkNtbjUiqVbO0hLKaycKEd9I7gY71ACg=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "saily|mahdiba|--6-ole8-s--63g8q-g--mk-",
+      "brand": "Saily",
+      "promo_code": "MAHDIBA",
+      "discount_value": 15,
+      "discount_unit": "%",
+      "discount_label": "-15%",
+      "offer": "sur votre eSIM Saily",
+      "link": "https://saily.com/mahdiba",
+      "video_url": "https://www.youtube.com/watch?v=9bC3Dmn1rdQ",
+      "channel": {
+        "id": "UC6Uole8KsZP63g8qYgFAmkQ",
+        "name": "Mahdi Ba",
+        "handle": "@MahdiBa",
+        "avatar": "https://yt3.googleusercontent.com/QUgTQKG8DrdhGzLY0msCi5fZPctk1b-uMDLmzonGNiIwNqWmL4PwOGXY8rLnd_VkgfLEfYU3yw=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "xiaomi|billy300|----yx--o--n--faw6f-sspw",
+      "brand": "Xiaomi",
+      "promo_code": "BILLY300",
+      "discount_value": 300,
+      "discount_unit": "€",
+      "discount_label": "-300€",
+      "offer": "300€ de remise supplémentaire sur les Xiaomi 18 Pro et Pro Max 512Go",
+      "link": "https://www.mi.com/fr/product/xiaomi-18-pro-max/?utm_campaign=mktso_micom_fr_fr_opensale_1911-0612_Q2&utm_channel=social&utm_source=youtube&utm_medium=paid-video&utm_content=traffic-image&utm_te",
+      "video_url": "https://www.youtube.com/watch?v=OFeroyC6Uu0",
+      "channel": {
+        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+        "name": "RebeuDeter",
+        "handle": "@RebeuDeter",
+        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "ultra-premium-direct|stephane|----yx--o--n--faw6f-sspw",
+      "brand": "Ultra Premium Direct",
+      "promo_code": "STEPHANE",
+      "discount_value": 25,
+      "discount_unit": "%",
+      "discount_label": "-25%",
+      "offer": "25% de réduction pendant 48h sur tout le site",
+      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=billy-youtube-022026",
+      "video_url": "https://www.youtube.com/watch?v=vd-k38Ks5VY",
+      "channel": {
+        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+        "name": "RebeuDeter",
+        "handle": "@RebeuDeter",
+        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "honkai-star-rail|ns4du8aagxbp|--fzn-5-l-o-o--0-k--t-dg",
+      "brand": "Honkai Star Rail",
+      "promo_code": "NS4DU8AAGXBP",
+      "discount_value": 50,
+      "discount_unit": null,
+      "discount_label": null,
+      "offer": "recu 50 jades stellaires",
+      "link": "https://hoyo.link/o67FWEMrY",
+      "video_url": "https://www.youtube.com/watch?v=n8cbTfcOkY0",
+      "channel": {
+        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
+        "name": "Fuze III",
+        "handle": "@FuzeIII",
+        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "yepoda|flip20|--hz-f-fgk7s-5--dy2r1-ow",
+      "brand": "Yepoda",
+      "promo_code": "FLIP20",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20 % de réduction sur tout le site",
+      "link": "https://yepoda.shop/FLIP20",
+      "video_url": "https://www.youtube.com/watch?v=kSnnnjykai0",
+      "channel": {
+        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
+        "name": "Maghla",
+        "handle": "@Maghla",
+        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1
+    },
     {
       "id": "holy|amixem|--gvqv-o---1ctlyyho-r-w-",
       "brand": "HOLY",
@@ -535,7 +1036,119 @@
     "https://www.youtube.com/watch?v=1MatxRymzwA",
     "https://www.youtube.com/watch?v=SosvBGv6CJM",
     "https://www.youtube.com/shorts/a2-rw-a1-Xs",
-    "https://www.youtube.com/shorts/VnIf3wvIr7g"
+    "https://www.youtube.com/shorts/VnIf3wvIr7g",
+    "https://www.youtube.com/watch?v=RJP4p77kmYc",
+    "https://www.youtube.com/watch?v=F-8Im7F2_ao",
+    "https://www.youtube.com/watch?v=-GFFkFY_i9w",
+    "https://www.youtube.com/shorts/-VgAS_U3uzY",
+    "https://www.youtube.com/shorts/oo0sF5j5bMA",
+    "https://www.youtube.com/shorts/PgJ5yKMoaGo",
+    "https://www.youtube.com/shorts/GR4awhRwyfk",
+    "https://www.youtube.com/shorts/wH-jNk2ZL4g",
+    "https://www.youtube.com/watch?v=78_Nge4PYag",
+    "https://www.youtube.com/watch?v=tKU2LYshWoA",
+    "https://www.youtube.com/shorts/hwTDRegnAAo",
+    "https://www.youtube.com/shorts/S_fELGv7sZI",
+    "https://www.youtube.com/watch?v=eNjYv-n0ATc",
+    "https://www.youtube.com/shorts/btNRDykb3MM",
+    "https://www.youtube.com/shorts/YBinlteAqHg",
+    "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
+    "https://www.youtube.com/shorts/lmK2qP2IeQg",
+    "https://www.youtube.com/shorts/SLTb2d5SOnI",
+    "https://www.youtube.com/watch?v=POQyLG5tlj4",
+    "https://www.youtube.com/watch?v=kwom1PyL1Ik",
+    "https://www.youtube.com/watch?v=2RYrlIrulH8",
+    "https://www.youtube.com/watch?v=ZdIpKB070ow",
+    "https://www.youtube.com/watch?v=mebYip3flAY",
+    "https://www.youtube.com/shorts/PVPjbLtgcJ8",
+    "https://www.youtube.com/watch?v=n3X03776DxU",
+    "https://www.youtube.com/watch?v=H2ATKdzGEgI",
+    "https://www.youtube.com/watch?v=KgmXdltUf3o",
+    "https://www.youtube.com/watch?v=5AtdCiqYlZ8",
+    "https://www.youtube.com/shorts/vWdqfEtecgM",
+    "https://www.youtube.com/watch?v=VzQMdaPS1dI",
+    "https://www.youtube.com/shorts/MJNpxq7s-Cc",
+    "https://www.youtube.com/shorts/gpu2vHDTiMU",
+    "https://www.youtube.com/shorts/yPiE8wLB5l4",
+    "https://www.youtube.com/watch?v=fCaoKUJOzw8",
+    "https://www.youtube.com/watch?v=hckHTXoBSLw",
+    "https://www.youtube.com/watch?v=N1A1Z-VlKUI",
+    "https://www.youtube.com/watch?v=gMUfOiuXAT4",
+    "https://www.youtube.com/watch?v=iJi5wWrfZtU",
+    "https://www.youtube.com/shorts/xkWFJ4rWgPo",
+    "https://www.youtube.com/shorts/wxxnC8WBUac",
+    "https://www.youtube.com/watch?v=IRph8EAYHbM",
+    "https://www.youtube.com/shorts/RGf_etIpdVA",
+    "https://www.youtube.com/shorts/W1BYkNvUVQ4",
+    "https://www.youtube.com/watch?v=x8csw1oU7nk",
+    "https://www.youtube.com/watch?v=e7jw5PL3o5A",
+    "https://www.youtube.com/watch?v=65WcnNsAkL4",
+    "https://www.youtube.com/watch?v=1HoU17dIEos",
+    "https://www.youtube.com/watch?v=oOsl-Cgu34g",
+    "https://www.youtube.com/watch?v=7Jk8FFFqLW0",
+    "https://www.youtube.com/watch?v=D-NRC_wnJbc",
+    "https://www.youtube.com/watch?v=TMRT1mObK8U",
+    "https://www.youtube.com/watch?v=nj02jmGlZwc",
+    "https://www.youtube.com/watch?v=_FGfw1Co36A",
+    "https://www.youtube.com/watch?v=qpGNO8wkTJA",
+    "https://www.youtube.com/shorts/LzjZmavUF1k",
+    "https://www.youtube.com/shorts/ZUcVRSiwWzI",
+    "https://www.youtube.com/shorts/sQ5sXQ7nfTo",
+    "https://www.youtube.com/shorts/AEQzUa0wPUw",
+    "https://www.youtube.com/watch?v=cPVNKmQYEhI",
+    "https://www.youtube.com/watch?v=NV7Ew1uVmRQ",
+    "https://www.youtube.com/shorts/88LAJrj8GCY",
+    "https://www.youtube.com/watch?v=JMfDNmBIb3Q",
+    "https://www.youtube.com/watch?v=Q31R2QOOWYQ",
+    "https://www.youtube.com/watch?v=HorHxVzrnjg",
+    "https://www.youtube.com/shorts/xb86TpszOcc",
+    "https://www.youtube.com/shorts/RFeVWhY0XdM",
+    "https://www.youtube.com/watch?v=x-Obg9mPJL8",
+    "https://www.youtube.com/shorts/3DVlRZLPs7g",
+    "https://www.youtube.com/shorts/M8C2KG15Or8",
+    "https://www.youtube.com/watch?v=aUjCsBzVOnI",
+    "https://www.youtube.com/shorts/TmfIgQpu3f8",
+    "https://www.youtube.com/shorts/QZuOPq9TF0U",
+    "https://www.youtube.com/shorts/0jtabllXuxk",
+    "https://www.youtube.com/watch?v=o--82BW8M2w",
+    "https://www.youtube.com/watch?v=TuvZJllC064",
+    "https://www.youtube.com/watch?v=ekZVWcrjenA",
+    "https://www.youtube.com/watch?v=nWLac3Qs_vk",
+    "https://www.youtube.com/watch?v=ck9gjGwNMb0",
+    "https://www.youtube.com/watch?v=vj19afWLS4k",
+    "https://www.youtube.com/watch?v=lR3WBU9tQkI",
+    "https://www.youtube.com/shorts/LVD_7MEmkdM",
+    "https://www.youtube.com/watch?v=9bC3Dmn1rdQ",
+    "https://www.youtube.com/watch?v=4RJJKy3JPAg",
+    "https://www.youtube.com/watch?v=OFeroyC6Uu0",
+    "https://www.youtube.com/watch?v=4UGp7FGsj2Q",
+    "https://www.youtube.com/watch?v=UEt5B_CERdw",
+    "https://www.youtube.com/watch?v=E6s-g6lySe0",
+    "https://www.youtube.com/watch?v=vd-k38Ks5VY",
+    "https://www.youtube.com/watch?v=kA9mQiTCF8w",
+    "https://www.youtube.com/watch?v=FCgdBuftG3s",
+    "https://www.youtube.com/shorts/ibotbsybzao",
+    "https://www.youtube.com/watch?v=eNCZt3aR-MY",
+    "https://www.youtube.com/shorts/7ny7LqMNXyI",
+    "https://www.youtube.com/shorts/dAwohhR_lWc",
+    "https://www.youtube.com/watch?v=6hV-lrzuxsI",
+    "https://www.youtube.com/watch?v=eEFJrQxz-dY",
+    "https://www.youtube.com/watch?v=n8cbTfcOkY0",
+    "https://www.youtube.com/watch?v=OLmOOGops8c",
+    "https://www.youtube.com/watch?v=lPWMFGRaCjw",
+    "https://www.youtube.com/watch?v=tb6q_OVZQQg",
+    "https://www.youtube.com/watch?v=23rqIna37Qs",
+    "https://www.youtube.com/watch?v=EczuxQgz6NM",
+    "https://www.youtube.com/watch?v=7KMQz98Vd2Q",
+    "https://www.youtube.com/watch?v=bhhdXSXjAkY",
+    "https://www.youtube.com/watch?v=EOZKO05jStQ",
+    "https://www.youtube.com/watch?v=kSnnnjykai0",
+    "https://www.youtube.com/watch?v=EXVcGiEIfyk",
+    "https://www.youtube.com/watch?v=Fe-A6thNkvo",
+    "https://www.youtube.com/watch?v=Ywp86_g6-Uo",
+    "https://www.youtube.com/watch?v=nALvqz53N0M",
+    "https://www.youtube.com/watch?v=NqX6IKf-b8E",
+    "https://www.youtube.com/watch?v=ESS1wb3WqLo"
   ],
   "channels_cache": {
     "@Squeezie": {
@@ -602,6 +1215,156 @@
       "id": "UCYGjxo5ifuhnmvhPvCc3DJQ",
       "name": "Wankil Studio - Laink et Terracid",
       "avatar": "https://yt3.googleusercontent.com/e8DYeGKwyaDgSc8AUmIvGdGsGU_c-_2ceQCb7qkbZZzZ7R5bppKMpL2vnlaIwS04O1Jx4kzd-Q=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@TiboInShape": {
+      "id": "UCpWaR3gNAQGsX48cIlQC0qw",
+      "name": "Tibo InShape",
+      "avatar": "https://yt3.googleusercontent.com/MXKYsX4ryzhIwTLMwBUvx6eoWMcaF-gsHO_PLidZMEKyFj-eKyg9u0IykU8uh7ejCAS9omOlyP8=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@JujuFitcats": {
+      "id": "UCIPbzkl1kZ_9Gyuph_FGvzg",
+      "name": "Juju Fitcats",
+      "avatar": "https://yt3.googleusercontent.com/oZdXk9L-y6Vao5vqhESNmfzlKlgOsyGNY7HfUlDvxOviYoHDkIqcBGMwwa8Lry8xTD6QQEvO=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Gotaga": {
+      "id": "UCCFqUJYKT97UerMmb6DM0bw",
+      "name": "GOTAGA",
+      "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Doigby": {
+      "id": "UCen9TDD6K1ZVW44unAGxtOw",
+      "name": "Doigby",
+      "avatar": "https://yt3.googleusercontent.com/pNm3fVJ4PaB0GW9yD0U0v4_FEw_aFiRwxYiJrECct2pVHTPoiq-v9TcGH4YU9zoX2NCJF4SZ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Natoo": {
+      "id": "UCpGYnA2UNuDrurDt3iCe3VA",
+      "name": "Nat Ł.",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_msLVK6044zoB8MYTJVH-v5B2VgK23SVRt7UzxNFpYRcxGK=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@LenaSituations": {
+      "id": "UCDkl5M0WVaddTWE4rr2cSeA",
+      "name": "Lena Situations",
+      "avatar": "https://yt3.googleusercontent.com/d2MpFvheu0xlCTovS837oS2ji_DNdnE-MWf2OsWDqohUV3YP-wv7a7TCxDh1sRP0T9SxP2VudCo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Cyprien": {
+      "id": "UCyWqModMQlbIo8274Wh_ZsQ",
+      "name": "Cyprien",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kKiE1Vpd2RZMv057AzKdHBtqkL7ksZhZ4Huwfbr9ngUyU=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@SylvainLyve": {
+      "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+      "name": "Sylvain Lyve",
+      "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@PierreChabrier": {
+      "id": "UCva9L8vevK1hWHTxZuZLtVw",
+      "name": "Pierre Chabrier",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mYhDDsCA9NfTG2PgzluZfHQpG5ifmMgJPfOK61kjZldvH8THXl33B8Pu__NmTzyraUXQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Gmk001": {
+      "id": "UCbuCbQ6drKB6lmRmKnEtqQg",
+      "name": "Aamir Aslam",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kKlmexW3aKpkTlBkdSDg_Oc31jUdObCJS3fFdaEyo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Akramjunior": {
+      "id": "UCOoHCekaiJXNaykNnkWuTwg",
+      "name": "Akram junior",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mVseW4FpwYi16xH6MkvJzquRnVpu63bczY-RZx1vruyQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Boiserie": {
+      "id": "UCAYGQW0LCQgb5_QdMINnbTg",
+      "name": "boiserie",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lD7uPUwUe8lHJmYwLnBRndIio2rBsjavGmfoESrrv09kZk4wYvrBhncVuhsOecV58bfQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Micode": {
+      "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+      "name": "Micode",
+      "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Underscore_": {
+      "id": "UCWedHS9qKebauVIK2J7383g",
+      "name": "Underscore_",
+      "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@LeoTechMaker": {
+      "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
+      "name": "Léo - TechMaker",
+      "avatar": "https://yt3.googleusercontent.com/wwCy41EXBNY-h82fP_V3Gv9hv7WkRa_mWMVn4_wMcNSdlUQXbpcaRNSP4DIDYMnGA5v2No_F_w=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Jojol": {
+      "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
+      "name": "Jojol",
+      "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@nowtech": {
+      "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
+      "name": "Nowtech",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Hardisk": {
+      "id": "UCA6rJQnIFgQOcjO-xtNV7lg",
+      "name": "Hardisk",
+      "avatar": "https://yt3.googleusercontent.com/6rfYMXofbz_hog_NSYSYYEs4rNX9oJwArfWFRY04sB9XtuGWqWrK3Xqi_vp26ZFUxymYQm0rm08=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Gurky": {
+      "id": "UC71wXCoTvVy63AW2s0jdwvw",
+      "name": "Gurky",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mPJbLsexZQv83zkNtbjUiqVbO0hLKaycKEd9I7gY71ACg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@MahdiBa": {
+      "id": "UC6Uole8KsZP63g8qYgFAmkQ",
+      "name": "Mahdi Ba",
+      "avatar": "https://yt3.googleusercontent.com/QUgTQKG8DrdhGzLY0msCi5fZPctk1b-uMDLmzonGNiIwNqWmL4PwOGXY8rLnd_VkgfLEfYU3yw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@RebeuDeter": {
+      "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+      "name": "RebeuDeter",
+      "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@BillyRebeuDeter": {
+      "id": "UCU-6umHtbq30EmZDbzmK51Q",
+      "name": "Billy Rebeu Deter",
+      "avatar": "https://yt3.googleusercontent.com/_YUutKhdfcg5MLaWzHlNEP8eRR_3q45iANZNcoyzsEee2SsSgXVW2qDfyQpjqAIZLMBp92wYvw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Pidi": {
+      "id": "UColBYAJ8B58ZMFsiLdniKMw",
+      "name": "pidi",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_ml-cGNi7LCnI-k_BD1Uxye1SGLfEnZZkHiT7vHjdo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Valouzz": {
+      "id": "UCfckkBqYjogo_AljRWOzFqQ",
+      "name": "Valouzz",
+      "avatar": "https://yt3.googleusercontent.com/hDOnknHPy--7v7yClxD5YPxyDEGI0UZIiB2ZmPNfAItxwyedBrvz3HsXaG6LSsVOajog6sGujg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Lebouseuh": {
+      "id": "UCUl7mwOyySfZzUkq4H29nug",
+      "name": "LeBouseuh",
+      "avatar": "https://yt3.googleusercontent.com/-ddkoZcrriwdAFiRPEBCTBqnU6p8w6fP5WdsG-k2MTo2DM0q_CmpZYKeIVgz4MQcaQ37Vn6S-ek=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Fuzay": {
+      "id": "UCDOg1qPk50mLOtEOuUpDQlA",
+      "name": "fuzay",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nHSmt_SkC21RrGxJ9EAztcQmqs2RZglqgpEtY5sAk=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@FuzeIII": {
+      "id": "UCfznY5SlSoZoXN0-kBPtCdg",
+      "name": "Fuze III",
+      "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Ninaxx": {
+      "id": "UCaMmYmGEdpQLx0rB7uX80_A",
+      "name": "NiNAxx",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nmhhAlvAXuGXXAG7fxQPqjyXhluEl4CaT3JYZprQ0-aw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Maghla": {
+      "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
+      "name": "Maghla",
+      "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@HortyUnderscore": {
+      "id": "UC9C2b4aXzt08QwjTKVlPA0A",
+      "name": "HortyUnderscore",
+      "avatar": "https://yt3.googleusercontent.com/tv7R9oA98CpENGAfhL0hqJ0PRbfYWp6Kf4-i4a7uHAeZy74YKQWUsy7zEZnemERRdlXIpap7jg=s900-c-k-c0x00ffffff-no-rj"
     }
   }
 }
