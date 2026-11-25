@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-25T10:37:33.681Z",
+  "updated_at": "2026-11-25T10:42:38.143Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 27,
-    "total_brands": 22,
-    "total_channels": 21,
+    "total_active_offers": 29,
+    "total_brands": 24,
+    "total_channels": 22,
     "top_brands": [
       {
         "brand": "HOLY",
@@ -102,12 +102,22 @@
         "total_mentions": 1
       },
       {
+        "brand": "LegalPlace",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
         "brand": "Incogni",
         "active_codes": 1,
         "total_mentions": 1
       },
       {
         "brand": "Infomax",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "o2switch",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -155,6 +165,14 @@
         "name": "CYRILmp4",
         "handle": "@CYRILmp4",
         "avatar": "https://yt3.googleusercontent.com/tk7oHsJutrdeI80Zzf5jvxT3nfwX5ZR4Qx9eguHLDIHYI30mg2nhfNsbQpU9vHUE1MEN8Zcbc30=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+        "name": "Aywen",
+        "handle": "@Aywen",
+        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 2,
         "total_mentions": 2
       },
@@ -752,6 +770,27 @@
       "video_published_at": "2026-11-09T17:00:04+00:00"
     },
     {
+      "id": "legalplace|aywenlp|---o7-6-3ej-7-psmpf---zw",
+      "brand": "LegalPlace",
+      "promo_code": "AYWENLP",
+      "discount_value": 15,
+      "discount_unit": "%",
+      "discount_label": "-15%",
+      "offer": "15% de réduction sur la création d'entreprise",
+      "link": "https://www.legalplace.fr/creation/creation-entreprise-2?codepromo=AYWENLP&utm_campaign=Aywen&utm_source=affilae&utm_medium=partner&ae=1163",
+      "video_url": "https://www.youtube.com/watch?v=MfUjveHz2Tk",
+      "video_published_at": "2026-11-08T20:54:04+00:00",
+      "channel": {
+        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+        "name": "Aywen",
+        "handle": "@Aywen",
+        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-25T10:42:38.143Z",
+      "last_seen_at": "2026-11-25T10:42:38.143Z",
+      "mentions_count": 1
+    },
+    {
       "id": "incogni|underscore|---ed--9q-ebau---2-7383g",
       "brand": "Incogni",
       "promo_code": "UNDERSCORE",
@@ -813,6 +852,27 @@
       "last_seen_at": "2026-11-24T15:29:20.979Z",
       "mentions_count": 1,
       "video_published_at": "2026-11-01T15:06:34+00:00"
+    },
+    {
+      "id": "o2switch|aywen10|---o7-6-3ej-7-psmpf---zw",
+      "brand": "o2switch",
+      "promo_code": "AYWEN10",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction",
+      "link": "https://osw.li/aywen",
+      "video_url": "https://www.youtube.com/watch?v=s9N3MCOrN7I",
+      "video_published_at": "2026-10-29T18:58:51+00:00",
+      "channel": {
+        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+        "name": "Aywen",
+        "handle": "@Aywen",
+        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-25T10:42:38.143Z",
+      "last_seen_at": "2026-11-25T10:42:38.143Z",
+      "mentions_count": 1
     },
     {
       "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
@@ -1177,7 +1237,12 @@
     "https://www.youtube.com/watch?v=J8eAlZK4VqM",
     "https://www.youtube.com/watch?v=fAa1IqBcw6s",
     "https://www.youtube.com/watch?v=iyXBC01spLE",
-    "https://www.youtube.com/watch?v=7ypt7vf-b8w"
+    "https://www.youtube.com/watch?v=7ypt7vf-b8w",
+    "https://www.youtube.com/watch?v=rSsENXLffd0",
+    "https://www.youtube.com/watch?v=EL2Q82KPJpQ",
+    "https://www.youtube.com/watch?v=MfUjveHz2Tk",
+    "https://www.youtube.com/watch?v=rit3cNKGNfs",
+    "https://www.youtube.com/watch?v=s9N3MCOrN7I"
   ],
   "channels_cache": {
     "@Squeezie": {
@@ -1539,6 +1604,11 @@
       "id": "UCPJJkwm48LGt7LC6tUZMWZQ",
       "name": "Eric Flag",
       "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mFKowEge6sN0U5TgfDCfXd2uAkgCiEc8mjIXTm7wwbN18=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@Aywen": {
+      "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+      "name": "Aywen",
+      "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj"
     }
   }
 }
