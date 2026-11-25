@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-11-25T05:00:56.698Z",
+  "updated_at": "2026-11-25T07:53:57.548Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 35,
-    "total_brands": 23,
-    "total_channels": 22,
+    "total_active_offers": 18,
+    "total_brands": 16,
+    "total_channels": 15,
     "top_brands": [
       {
-        "brand": "Ultra Premium Direct",
-        "active_codes": 7,
-        "total_mentions": 7
-      },
-      {
         "brand": "HOLY",
-        "active_codes": 4,
-        "total_mentions": 4
+        "active_codes": 2,
+        "total_mentions": 2
       },
       {
-        "brand": "CarVertical",
-        "active_codes": 3,
-        "total_mentions": 4
-      },
-      {
-        "brand": "Hostinger",
+        "brand": "carVertical",
         "active_codes": 2,
         "total_mentions": 3
+      },
+      {
+        "brand": "Auto M6 Ultra+ 2.0",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "brand": "RayNeo",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Plaud",
@@ -42,37 +42,7 @@
         "total_mentions": 1
       },
       {
-        "brand": "Delko",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Ubigi",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Incogni",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Auto M6 Ultra+ 2.0",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "RayNeo",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
         "brand": "HBADA",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Saily",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -87,17 +57,12 @@
         "total_mentions": 1
       },
       {
-        "brand": "Yepoda",
+        "brand": "Hostinger",
         "active_codes": 1,
         "total_mentions": 1
       },
       {
-        "brand": "Emma Sleep",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Hyperx",
+        "brand": "Ultra Premium Direct",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -107,12 +72,7 @@
         "total_mentions": 1
       },
       {
-        "brand": "PrepMyMeal",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Honkai: Star Rail",
+        "brand": "Incogni",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -120,86 +80,19 @@
         "brand": "Infomax",
         "active_codes": 1,
         "total_mentions": 1
+      },
+      {
+        "brand": "Delko",
+        "active_codes": 1,
+        "total_mentions": 1
       }
     ],
     "top_channels": [
-      {
-        "id": "UC3TmGiSjX2Ix3qTjUnIIv4g",
-        "name": "THEODORT",
-        "handle": "@theodortytb",
-        "avatar": "https://yt3.googleusercontent.com/SvQQDjOMTyl3DdWWxmJLmnQQvf9VPq-qwzjvfbHTeMClvei9E8MEmNXXYGIKqEbAPAttTZeJ86E=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 3,
-        "total_mentions": 3
-      },
-      {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 3,
-        "total_mentions": 3
-      },
       {
         "id": "UCCFqUJYKT97UerMmb6DM0bw",
         "name": "GOTAGA",
         "handle": "@Gotaga",
         "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
-        "name": "Sylvain Lyve",
-        "handle": "@SylvainLyve",
-        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 3
-      },
-      {
-        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
-        "name": "Micode",
-        "handle": "@Micode",
-        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCWedHS9qKebauVIK2J7383g",
-        "name": "Underscore_",
-        "handle": "@Underscore_",
-        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 3
-      },
-      {
-        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
-        "name": "RebeuDeter",
-        "handle": "@RebeuDeter",
-        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCow2IGnug1l3Xazkrc5jM_Q",
-        "name": "JOYCA",
-        "handle": "@Joyca",
-        "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCuKa7_pustUzOj3IBcgYNPg",
-        "name": "Benjamin Verrecchia",
-        "handle": "@BenjaminVerrecchia",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lFoBsuqk8bpD7MfECLTyC2IAHRPc6odVSJIsYL64-3DSw=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 2,
         "total_mentions": 2
       },
@@ -212,34 +105,18 @@
         "total_mentions": 2
       },
       {
-        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
-        "name": "HugoDécrypte - Actus du jour",
-        "handle": "@hugodecrypteactus",
-        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 1,
-        "total_mentions": 1
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 3
       },
       {
         "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
         "name": "Léo - TechMaker",
         "handle": "@LeoTechMaker",
         "avatar": "https://yt3.googleusercontent.com/wwCy41EXBNY-h82fP_V3Gv9hv7WkRa_mWMVn4_wMcNSdlUQXbpcaRNSP4DIDYMnGA5v2No_F_w=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
-        "name": "Jojol",
-        "handle": "@Jojol",
-        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
-        "name": "Nowtech",
-        "handle": "@nowtech",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -252,26 +129,18 @@
         "total_mentions": 1
       },
       {
-        "id": "UC6Uole8KsZP63g8qYgFAmkQ",
-        "name": "Mahdi Ba",
-        "handle": "@MahdiBa",
-        "avatar": "https://yt3.googleusercontent.com/QUgTQKG8DrdhGzLY0msCi5fZPctk1b-uMDLmzonGNiIwNqWmL4PwOGXY8rLnd_VkgfLEfYU3yw=s900-c-k-c0x00ffffff-no-rj",
+        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
+        "name": "Jojol",
+        "handle": "@Jojol",
+        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       },
       {
-        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
-        "name": "Fuze III",
-        "handle": "@FuzeIII",
-        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
-        "name": "Maghla",
-        "handle": "@Maghla",
-        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj",
+        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+        "name": "HugoDécrypte - Actus du jour",
+        "handle": "@hugodecrypteactus",
+        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -284,204 +153,64 @@
         "total_mentions": 1
       },
       {
-        "id": "UCL9aTJb0ur4sovxcppAopEw",
-        "name": "Inoxtag",
-        "handle": "@Inoxtag",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj",
+        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
+        "name": "Nowtech",
+        "handle": "@nowtech",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       },
       {
-        "id": "UCAhaFPP6v3WCfK5Tjao0B7A",
-        "name": "Mastu",
-        "handle": "@Mastu",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kcL_PnNz1KEjLIQ7veCTq_0Vv7tktG0oth4M0_NZp8PRw=s900-c-k-c0x00ffffff-no-rj",
+        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+        "name": "RebeuDeter",
+        "handle": "@RebeuDeter",
+        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
+        "name": "Fuze III",
+        "handle": "@FuzeIII",
+        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+        "name": "Micode",
+        "handle": "@Micode",
+        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
+        "name": "Pierre Croce",
+        "handle": "@PierreCroce",
+        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCWedHS9qKebauVIK2J7383g",
+        "name": "Underscore_",
+        "handle": "@Underscore_",
+        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCow2IGnug1l3Xazkrc5jM_Q",
+        "name": "JOYCA",
+        "handle": "@Joyca",
+        "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       }
     ]
   },
   "offers": [
-    {
-      "id": "plaud|hugodecrypte|---c-n--0-r-t-ep3-4----w",
-      "brand": "Plaud",
-      "promo_code": "HUGODECRYPTE",
-      "discount_value": 22,
-      "discount_unit": "%",
-      "discount_label": "-22%",
-      "offer": "sur le Note Pro et tous les produits Plaud",
-      "link": "https://hugodecrypte.com/plaud-note-pro",
-      "video_url": "https://www.youtube.com/watch?v=RYf_RByRiEs",
-      "channel": {
-        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
-        "name": "HugoDécrypte - Actus du jour",
-        "handle": "@hugodecrypteactus",
-        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:41:36.307Z",
-      "last_seen_at": "2026-11-24T19:41:36.307Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "scuf|gotaga|----q-----97-er-mb6--0bw",
-      "brand": "Scuf",
-      "promo_code": "GOTAGA",
-      "discount_value": 5,
-      "discount_unit": "%",
-      "discount_label": "-5%",
-      "offer": "5% de réduction sur votre achat",
-      "link": "http://scuf.co/Gotaga",
-      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
-      "channel": {
-        "id": "UCCFqUJYKT97UerMmb6DM0bw",
-        "name": "GOTAGA",
-        "handle": "@Gotaga",
-        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "logitech-g|gotaga|----q-----97-er-mb6--0bw",
-      "brand": "Logitech G",
-      "promo_code": "GOTAGA",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction sur votre achat",
-      "link": "https://logi.gg/GOTAGA",
-      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
-      "channel": {
-        "id": "UCCFqUJYKT97UerMmb6DM0bw",
-        "name": "GOTAGA",
-        "handle": "@Gotaga",
-        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
-      "brand": "CarVertical",
-      "promo_code": "SYLVAIN",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20% de réduction sur votre rapport",
-      "link": "https://www.carvertical.com/sylvain",
-      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
-      "channel": {
-        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
-        "name": "Sylvain Lyve",
-        "handle": "@SylvainLyve",
-        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 2
-    },
-    {
-      "id": "delko|sylvain20|---9gf--ym---m5-8lf4-ht-",
-      "brand": "Delko",
-      "promo_code": "SYLVAIN20",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20% de réduction sur la carrosserie",
-      "link": "https://delko.short.gy/jeu-concours-delko-carrosserie",
-      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
-      "channel": {
-        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
-        "name": "Sylvain Lyve",
-        "handle": "@SylvainLyve",
-        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "hostinger|micode|---nvx----i--o-t--p----w",
-      "brand": "Hostinger",
-      "promo_code": "MICODE",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction sur les plans de 12 mois et plus",
-      "link": "https://www.hostinger.fr/micode",
-      "video_url": "https://www.youtube.com/watch?v=x8csw1oU7nk",
-      "channel": {
-        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
-        "name": "Micode",
-        "handle": "@Micode",
-        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ubigi|micode|---nvx----i--o-t--p----w",
-      "brand": "Ubigi",
-      "promo_code": "MICODE",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "-10% de réduction",
-      "link": "https://rebrand.ly/UbigixMicode",
-      "video_url": "https://www.youtube.com/watch?v=65WcnNsAkL4",
-      "channel": {
-        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
-        "name": "Micode",
-        "handle": "@Micode",
-        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "hostinger|underscore|---ed--9q-ebau---2-7383g",
-      "brand": "Hostinger",
-      "promo_code": "UNDERSCORE",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction sur les plans de 12 mois et plus",
-      "link": "https://www.hostinger.fr/underscore",
-      "video_url": "https://www.youtube.com/watch?v=_FGfw1Co36A",
-      "channel": {
-        "id": "UCWedHS9qKebauVIK2J7383g",
-        "name": "Underscore_",
-        "handle": "@Underscore_",
-        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 2
-    },
-    {
-      "id": "incogni|underscore|---ed--9q-ebau---2-7383g",
-      "brand": "Incogni",
-      "promo_code": "UNDERSCORE",
-      "discount_value": 60,
-      "discount_unit": "%",
-      "discount_label": "-60%",
-      "offer": "réduction de 60% sur l'abonnement annuel",
-      "link": "https://incogni.com/underscore",
-      "video_url": "https://www.youtube.com/watch?v=TMRT1mObK8U",
-      "channel": {
-        "id": "UCWedHS9qKebauVIK2J7383g",
-        "name": "Underscore_",
-        "handle": "@Underscore_",
-        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
     {
       "id": "auto-m6-ultra--2-0|kolbonus|---hy--yl--5---l1l-92ft-",
       "brand": "Auto M6 Ultra+ 2.0",
@@ -500,47 +229,8 @@
       },
       "first_seen_at": "2026-11-24T19:33:31.618Z",
       "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "rayneo|rayneobfcm|---y0l-8-h-7l-tst7-neg--",
-      "brand": "RayNeo",
-      "promo_code": "RAYNEOBFCM",
-      "discount_value": 5,
-      "discount_unit": "%",
-      "discount_label": "-5%",
-      "offer": "5% en plus",
-      "link": "https://dada.link/XjUxSd",
-      "video_url": "https://www.youtube.com/watch?v=cPVNKmQYEhI",
-      "channel": {
-        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
-        "name": "Jojol",
-        "handle": "@Jojol",
-        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "hbada|nowteche|---w-9--q--f---4-k--lf2g",
-      "brand": "HBADA",
-      "promo_code": "NOWTECHE",
-      "discount_value": 5,
-      "discount_unit": "%",
-      "discount_label": "-5%",
-      "offer": "5% de réduction supplémentaire sur les chaises ergonomiques HBADA",
-      "link": "https://bit.ly/4yY31nU",
-      "video_url": "https://www.youtube.com/watch?v=HorHxVzrnjg",
-      "channel": {
-        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
-        "name": "Nowtech",
-        "handle": "@nowtech",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-24T17:04:56+00:00"
     },
     {
       "id": "holy|gurky|--71w--o-v-y63--2s0jdwvw",
@@ -560,107 +250,92 @@
       },
       "first_seen_at": "2026-11-24T19:33:31.618Z",
       "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-24T16:02:05+00:00"
     },
     {
-      "id": "saily|mahdiba|--6-ole8-s--63g8q-g--mk-",
-      "brand": "Saily",
-      "promo_code": "MAHDIBA",
-      "discount_value": 15,
+      "id": "rayneo|rayneobfcm|---y0l-8-h-7l-tst7-neg--",
+      "brand": "RayNeo",
+      "promo_code": "RAYNEOBFCM",
+      "discount_value": 5,
       "discount_unit": "%",
-      "discount_label": "-15%",
-      "offer": "sur votre eSIM Saily",
-      "link": "https://saily.com/mahdiba",
-      "video_url": "https://www.youtube.com/watch?v=9bC3Dmn1rdQ",
+      "discount_label": "-5%",
+      "offer": "5% en plus",
+      "link": "https://dada.link/XjUxSd",
+      "video_url": "https://www.youtube.com/watch?v=cPVNKmQYEhI",
       "channel": {
-        "id": "UC6Uole8KsZP63g8qYgFAmkQ",
-        "name": "Mahdi Ba",
-        "handle": "@MahdiBa",
-        "avatar": "https://yt3.googleusercontent.com/QUgTQKG8DrdhGzLY0msCi5fZPctk1b-uMDLmzonGNiIwNqWmL4PwOGXY8rLnd_VkgfLEfYU3yw=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCJy0lX8ThZ7lCtst7JnegWQ",
+        "name": "Jojol",
+        "handle": "@Jojol",
+        "avatar": "https://yt3.googleusercontent.com/LynLoLgkMKW3yJ-jx8FwJxAGfPBXnp_RPYJTdkZKag6qhvf68UxGPU1epcREv2o6Kb4YB2178rg=s900-c-k-c0x00ffffff-no-rj"
       },
       "first_seen_at": "2026-11-24T19:33:31.618Z",
       "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-24T15:27:36+00:00"
     },
     {
-      "id": "xiaomi|billy300|----yx--o--n--faw6f-sspw",
-      "brand": "Xiaomi",
-      "promo_code": "BILLY300",
-      "discount_value": 300,
-      "discount_unit": "€",
-      "discount_label": "-300€",
-      "offer": "300€ de remise supplémentaire sur les Xiaomi 18 Pro et Pro Max 512Go",
-      "link": "https://www.mi.com/fr/product/xiaomi-18-pro-max/?utm_campaign=mktso_micom_fr_fr_opensale_1911-0612_Q2&utm_channel=social&utm_source=youtube&utm_medium=paid-video&utm_content=traffic-image&utm_te",
-      "video_url": "https://www.youtube.com/watch?v=OFeroyC6Uu0",
-      "channel": {
-        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
-        "name": "RebeuDeter",
-        "handle": "@RebeuDeter",
-        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ultra-premium-direct|stephane|----yx--o--n--faw6f-sspw",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "STEPHANE",
-      "discount_value": 25,
+      "id": "plaud|hugodecrypte|---c-n--0-r-t-ep3-4----w",
+      "brand": "Plaud",
+      "promo_code": "HUGODECRYPTE",
+      "discount_value": 22,
       "discount_unit": "%",
-      "discount_label": "-25%",
-      "offer": "25% de réduction pendant 48h sur tout le site",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=billy-youtube-022026",
-      "video_url": "https://www.youtube.com/watch?v=vd-k38Ks5VY",
+      "discount_label": "-22%",
+      "offer": "sur le Note Pro et tous les produits Plaud",
+      "link": "https://hugodecrypte.com/plaud-note-pro",
+      "video_url": "https://www.youtube.com/watch?v=RYf_RByRiEs",
       "channel": {
-        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
-        "name": "RebeuDeter",
-        "handle": "@RebeuDeter",
-        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+        "name": "HugoDécrypte - Actus du jour",
+        "handle": "@hugodecrypteactus",
+        "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj"
       },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
+      "first_seen_at": "2026-11-24T19:41:36.307Z",
+      "last_seen_at": "2026-11-24T19:41:36.307Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-23T19:00:10+00:00"
     },
     {
-      "id": "honkai-star-rail|ns4du8aagxbp|--fzn-5-l-o-o--0-k--t-dg",
-      "brand": "Honkai Star Rail",
-      "promo_code": "NS4DU8AAGXBP",
-      "discount_value": 50,
-      "discount_unit": null,
-      "discount_label": null,
-      "offer": "recu 50 jades stellaires",
-      "link": "https://hoyo.link/o67FWEMrY",
-      "video_url": "https://www.youtube.com/watch?v=n8cbTfcOkY0",
-      "channel": {
-        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
-        "name": "Fuze III",
-        "handle": "@FuzeIII",
-        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "yepoda|flip20|--hz-f-fgk7s-5--dy2r1-ow",
-      "brand": "Yepoda",
-      "promo_code": "FLIP20",
-      "discount_value": 20,
+      "id": "scuf|gotaga|----q-----97-er-mb6--0bw",
+      "brand": "Scuf",
+      "promo_code": "GOTAGA",
+      "discount_value": 5,
       "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20 % de réduction sur tout le site",
-      "link": "https://yepoda.shop/FLIP20",
-      "video_url": "https://www.youtube.com/watch?v=kSnnnjykai0",
+      "discount_label": "-5%",
+      "offer": "5% de réduction sur votre achat",
+      "link": "http://scuf.co/Gotaga",
+      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
       "channel": {
-        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
-        "name": "Maghla",
-        "handle": "@Maghla",
-        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCCFqUJYKT97UerMmb6DM0bw",
+        "name": "GOTAGA",
+        "handle": "@Gotaga",
+        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
       },
       "first_seen_at": "2026-11-24T19:33:31.618Z",
       "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-23T16:30:24+00:00"
+    },
+    {
+      "id": "logitech-g|gotaga|----q-----97-er-mb6--0bw",
+      "brand": "Logitech G",
+      "promo_code": "GOTAGA",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur votre achat",
+      "link": "https://logi.gg/GOTAGA",
+      "video_url": "https://www.youtube.com/watch?v=xDxXCZ_C4lY",
+      "channel": {
+        "id": "UCCFqUJYKT97UerMmb6DM0bw",
+        "name": "GOTAGA",
+        "handle": "@Gotaga",
+        "avatar": "https://yt3.googleusercontent.com/FQXhwoYYE7tmVnX54Lkp6qDgFbgSpCoTou-yRqcaxwbKRTDEwjpwjH3yFB55nK_p9MinEAvPCm8=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-23T16:30:24+00:00"
     },
     {
       "id": "holy|amixem|--gvqv-o---1ctlyyho-r-w-",
@@ -680,287 +355,92 @@
       },
       "first_seen_at": "2026-11-24T15:29:20.979Z",
       "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-22T16:25:35+00:00"
     },
     {
-      "id": "ultra-premium-direct|diner25|--------r1a2hn-fnp-sl-e-",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "DINER25",
-      "discount_value": 25,
-      "discount_unit": "%",
-      "discount_label": "-25%",
-      "offer": "25 % de remise sur tout le site",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=djilsi-youtube-102026",
-      "video_url": "https://www.youtube.com/watch?v=8UduMkgaBE8",
-      "channel": {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "emma-sleep|djilsi|--------r1a2hn-fnp-sl-e-",
-      "brand": "Emma Sleep",
-      "promo_code": "DJILSI",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10 % de réduction valable jusqu'à la fin de l'année 2026",
-      "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=Djilsi&utm_code=DJILSI",
-      "video_url": "https://www.youtube.com/watch?v=ffSyBdcD958",
-      "channel": {
-        "id": "UCEUZRSYr1a2hnBfnpWslFeQ",
-        "name": "Djilsi",
-        "handle": "@Djilsi",
-        "avatar": "https://yt3.googleusercontent.com/OURu7mcfKBYZ4mX5bq_xdZBdfuAh2MlemG3Icgod1i8NOItwGccGXWqJaKxmMxSMr2TRdcFpewM=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "hyperx|hyperxog|---9a--b0ur4sovxcpp-op-w",
-      "brand": "Hyperx",
-      "promo_code": "HYPERXOG",
-      "discount_value": 30,
-      "discount_unit": "%",
-      "discount_label": "-30%",
-      "offer": "30% de réduction sur les accessoires Hyperx jusqu'au 28 octobre",
-      "link": "https://hyperx.gg/backtoog",
-      "video_url": "https://www.youtube.com/watch?v=T6q5ee7fISo",
-      "channel": {
-        "id": "UCL9aTJb0ur4sovxcppAopEw",
-        "name": "Inoxtag",
-        "handle": "@Inoxtag",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nBv_ScBglsYmGLCeX8gG5E7_rC-p9M0I4hQAcEMaHjJa4=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "carvertical|joyca|--ow2--nug1l3-azkrc5j---",
-      "brand": "carVertical",
-      "promo_code": "JOYCA",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "sur votre rapport carVertical",
-      "link": "https://www.carvertical.com/joyca",
-      "video_url": "https://www.youtube.com/watch?v=v9wYSebfh4o",
-      "channel": {
-        "id": "UCow2IGnug1l3Xazkrc5jM_Q",
-        "name": "JOYCA",
-        "handle": "@Joyca",
-        "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ultra-premium-direct|junada|--ow2--nug1l3-azkrc5j---",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "JUNADA",
-      "discount_value": 25,
-      "discount_unit": "%",
-      "discount_label": "-25%",
-      "offer": "sur tout le site",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=joyca-youtube-27092026",
-      "video_url": "https://www.youtube.com/watch?v=tE9MMqYu2Bk",
-      "channel": {
-        "id": "UCow2IGnug1l3Xazkrc5jM_Q",
-        "name": "JOYCA",
-        "handle": "@Joyca",
-        "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ultra-premium-direct|bluff|---ha---6v3--f-5-jao0-7-",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "BLUFF",
-      "discount_value": 25,
-      "discount_unit": "%",
-      "discount_label": "-25%",
-      "offer": "25% de réduction sur Ultra Premium Direct jusqu'au 14/11/2026",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=mastu-youtube-102026",
-      "video_url": "https://www.youtube.com/watch?v=OUs0_f8wc_U",
-      "channel": {
-        "id": "UCAhaFPP6v3WCfK5Tjao0B7A",
-        "name": "Mastu",
-        "handle": "@Mastu",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kcL_PnNz1KEjLIQ7veCTq_0Vv7tktG0oth4M0_NZp8PRw=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "ultra-premium-direct|theodort|--3-m-i-j-2-x3q-j-n--v4g",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "THEODORT",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20% de réduction avec le code THEODORT",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=theodort-youtube-12022026",
-      "video_url": "https://www.youtube.com/watch?v=N9fTH1nDwjY",
-      "channel": {
-        "id": "UC3TmGiSjX2Ix3qTjUnIIv4g",
-        "name": "THEODORT",
-        "handle": "@theodortytb",
-        "avatar": "https://yt3.googleusercontent.com/SvQQDjOMTyl3DdWWxmJLmnQQvf9VPq-qwzjvfbHTeMClvei9E8MEmNXXYGIKqEbAPAttTZeJ86E=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "holy|theodort5|--3-m-i-j-2-x3q-j-n--v4g",
-      "brand": "Holy",
-      "promo_code": "THEODORT5",
+      "id": "hbada|nowteche|---w-9--q--f---4-k--lf2g",
+      "brand": "HBADA",
+      "promo_code": "NOWTECHE",
       "discount_value": 5,
+      "discount_unit": "%",
+      "discount_label": "-5%",
+      "offer": "5% de réduction supplémentaire sur les chaises ergonomiques HBADA",
+      "link": "https://bit.ly/4yY31nU",
+      "video_url": "https://www.youtube.com/watch?v=HorHxVzrnjg",
+      "channel": {
+        "id": "UCVwG9JHqGLfEO-4TkF-lf2g",
+        "name": "Nowtech",
+        "handle": "@nowtech",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4RP19H6KxmMXT9nsgUendqx8h4O0hZKHIxZrSirN_h-4=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-21T09:51:08+00:00"
+    },
+    {
+      "id": "xiaomi|billy300|----yx--o--n--faw6f-sspw",
+      "brand": "Xiaomi",
+      "promo_code": "BILLY300",
+      "discount_value": 300,
       "discount_unit": "€",
-      "discount_label": "-5€",
-      "offer": "5€ de réduction sur votre première commande",
-      "link": "https://fr.weareholy.com/theodore/youtube",
-      "video_url": "https://www.youtube.com/watch?v=WAsHh7rWRBI",
+      "discount_label": "-300€",
+      "offer": "300€ de remise supplémentaire sur les Xiaomi 18 Pro et Pro Max 512Go",
+      "link": "https://www.mi.com/fr/product/xiaomi-18-pro-max/?utm_campaign=mktso_micom_fr_fr_opensale_1911-0612_Q2&utm_channel=social&utm_source=youtube&utm_medium=paid-video&utm_content=traffic-image&utm_te",
+      "video_url": "https://www.youtube.com/watch?v=OFeroyC6Uu0",
       "channel": {
-        "id": "UC3TmGiSjX2Ix3qTjUnIIv4g",
-        "name": "THEODORT",
-        "handle": "@theodortytb",
-        "avatar": "https://yt3.googleusercontent.com/SvQQDjOMTyl3DdWWxmJLmnQQvf9VPq-qwzjvfbHTeMClvei9E8MEmNXXYGIKqEbAPAttTZeJ86E=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCWDyxFXoK_nPWfaw6f_sspw",
+        "name": "RebeuDeter",
+        "handle": "@RebeuDeter",
+        "avatar": "https://yt3.googleusercontent.com/8I2j2zpAmj2tYtWhCUUYJa7T18eHyJQKYsVBwrFx60aCdfHI5tTJEZye2K5MqN5NhCgi6SB-yco=s900-c-k-c0x00ffffff-no-rj"
       },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-18T17:31:04+00:00"
     },
     {
-      "id": "holy|theodort|--3-m-i-j-2-x3q-j-n--v4g",
-      "brand": "Holy",
-      "promo_code": "THEODORT",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction avec le code THEODORT",
-      "link": "https://fr.weareholy.com/theodore/youtube",
-      "video_url": "https://www.youtube.com/watch?v=WAsHh7rWRBI",
-      "channel": {
-        "id": "UC3TmGiSjX2Ix3qTjUnIIv4g",
-        "name": "THEODORT",
-        "handle": "@theodortytb",
-        "avatar": "https://yt3.googleusercontent.com/SvQQDjOMTyl3DdWWxmJLmnQQvf9VPq-qwzjvfbHTeMClvei9E8MEmNXXYGIKqEbAPAttTZeJ86E=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "emma|croce|----r3sp--5i5--gtd---0--",
-      "brand": "Emma",
-      "promo_code": "CROCE",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction supplémentaire sur les produits en promotion",
-      "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=PierreCroce&utm_code=CROCE",
-      "video_url": "https://www.youtube.com/watch?v=0BKnHec27kk",
-      "channel": {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "prepmymeal|croce|----r3sp--5i5--gtd---0--",
-      "brand": "PrepMyMeal",
-      "promo_code": "CROCE",
-      "discount_value": 10,
-      "discount_unit": "%",
-      "discount_label": "-10%",
-      "offer": "10% de réduction sur l’ensemble de votre commande",
-      "link": "https://creator.prepmymeal.com/PIERRECROCE",
-      "video_url": "https://www.youtube.com/watch?v=iXHJYFNWaks",
-      "channel": {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "carvertical|croce|----r3sp--5i5--gtd---0--",
-      "brand": "carVertical",
-      "promo_code": "CROCE",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20% de réduction sur votre rapport carVertical",
-      "link": "https://www.carvertical.deal/39G3J6K/2QZRGT/?source_id=INFL&sub1=CROCE",
-      "video_url": "https://www.youtube.com/watch?v=4ynYBGiJgt0",
-      "channel": {
-        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
-        "name": "Pierre Croce",
-        "handle": "@PierreCroce",
-        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
-    },
-    {
-      "id": "honkai--star-rail|hsrver10xedlfe|--u-a7-pust-z-j3--cg---g",
-      "brand": "Honkai: Star Rail",
-      "promo_code": "HSRVER10XEDLFE",
-      "discount_value": null,
+      "id": "honkai-star-rail|ns4du8aagxbp|--fzn-5-l-o-o--0-k--t-dg",
+      "brand": "Honkai Star Rail",
+      "promo_code": "NS4DU8AAGXBP",
+      "discount_value": 50,
       "discount_unit": null,
       "discount_label": null,
-      "offer": "Télécharge le jeu Honkai: Star Rail",
-      "link": "https://hoyo.link/60H9CuHd",
-      "video_url": "https://www.youtube.com/watch?v=B53MbXAfHIc",
+      "offer": "recu 50 jades stellaires",
+      "link": "https://hoyo.link/o67FWEMrY",
+      "video_url": "https://www.youtube.com/watch?v=n8cbTfcOkY0",
       "channel": {
-        "id": "UCuKa7_pustUzOj3IBcgYNPg",
-        "name": "Benjamin Verrecchia",
-        "handle": "@BenjaminVerrecchia",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lFoBsuqk8bpD7MfECLTyC2IAHRPc6odVSJIsYL64-3DSw=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCfznY5SlSoZoXN0-kBPtCdg",
+        "name": "Fuze III",
+        "handle": "@FuzeIII",
+        "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj"
       },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-17T19:40:53+00:00"
     },
     {
-      "id": "ultra-premium-direct|benjamin|--u-a7-pust-z-j3--cg---g",
-      "brand": "Ultra Premium Direct",
-      "promo_code": "BENJAMIN",
-      "discount_value": 20,
+      "id": "hostinger|micode|---nvx----i--o-t--p----w",
+      "brand": "Hostinger",
+      "promo_code": "MICODE",
+      "discount_value": 10,
       "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "sur tout le site Ultra Premium Direct",
-      "link": "https://www.ultrapremiumdirect.com/?utm_source=youtube&utm_medium=partenariat&utm_campaign=benjaminverrecchia",
-      "video_url": "https://www.youtube.com/watch?v=NOvIuBeSwvM",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur les plans de 12 mois et plus",
+      "link": "https://www.hostinger.fr/micode",
+      "video_url": "https://www.youtube.com/watch?v=x8csw1oU7nk",
       "channel": {
-        "id": "UCuKa7_pustUzOj3IBcgYNPg",
-        "name": "Benjamin Verrecchia",
-        "handle": "@BenjaminVerrecchia",
-        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lFoBsuqk8bpD7MfECLTyC2IAHRPc6odVSJIsYL64-3DSw=s900-c-k-c0x00ffffff-no-rj"
+        "id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+        "name": "Micode",
+        "handle": "@Micode",
+        "avatar": "https://yt3.googleusercontent.com/FWRkKi2u2NSqVBOyenh-Q0qpqpk562aVx6SMH-Caw6QIeZmAIFcwdA3mdpNnwW-Qm-XZHXPr=s900-c-k-c0x00ffffff-no-rj"
       },
-      "first_seen_at": "2026-11-24T15:29:20.979Z",
-      "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-12T19:52:30+00:00"
     },
     {
       "id": "ultra-premium-direct|pepa|---4-8--08hw39nn2v91-u--",
@@ -980,7 +460,50 @@
       },
       "first_seen_at": "2026-11-24T15:29:20.979Z",
       "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-10T17:00:38+00:00"
+    },
+    {
+      "id": "emma|croce|----r3sp--5i5--gtd---0--",
+      "brand": "Emma",
+      "promo_code": "CROCE",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction supplémentaire sur les produits en promotion",
+      "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=PierreCroce&utm_code=CROCE",
+      "video_url": "https://www.youtube.com/watch?v=0BKnHec27kk",
+      "channel": {
+        "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
+        "name": "Pierre Croce",
+        "handle": "@PierreCroce",
+        "avatar": "https://yt3.googleusercontent.com/nITpEppzrNhVmiOCzBsmwQdjzaJ-qJnz4KKwqhbfXgTxdAkKP8ITAz3dlmdIOLPnm4nyxBdbOA=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T15:29:20.979Z",
+      "last_seen_at": "2026-11-24T15:29:20.979Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-09T17:00:04+00:00"
+    },
+    {
+      "id": "incogni|underscore|---ed--9q-ebau---2-7383g",
+      "brand": "Incogni",
+      "promo_code": "UNDERSCORE",
+      "discount_value": 60,
+      "discount_unit": "%",
+      "discount_label": "-60%",
+      "offer": "réduction de 60% sur l'abonnement annuel",
+      "link": "https://incogni.com/underscore",
+      "video_url": "https://www.youtube.com/watch?v=TMRT1mObK8U",
+      "channel": {
+        "id": "UCWedHS9qKebauVIK2J7383g",
+        "name": "Underscore_",
+        "handle": "@Underscore_",
+        "avatar": "https://yt3.googleusercontent.com/RUb9pWwhDr8-uv4WTOOvn_c6cc1K5yHa2dPrOx7nqT8K2Ez1wYnVUQO_4PCJwMxOtZGg9vvZbw=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-05T14:45:58+00:00"
     },
     {
       "id": "infomax|cyril|---4-8--08hw39nn2v91-u--",
@@ -1000,7 +523,71 @@
       },
       "first_seen_at": "2026-11-24T15:29:20.979Z",
       "last_seen_at": "2026-11-24T15:29:20.979Z",
-      "mentions_count": 1
+      "mentions_count": 1,
+      "video_published_at": "2026-11-03T18:45:28+00:00"
+    },
+    {
+      "id": "carvertical|joyca|--ow2--nug1l3-azkrc5j---",
+      "brand": "carVertical",
+      "promo_code": "JOYCA",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "sur votre rapport carVertical",
+      "link": "https://www.carvertical.com/joyca",
+      "video_url": "https://www.youtube.com/watch?v=v9wYSebfh4o",
+      "channel": {
+        "id": "UCow2IGnug1l3Xazkrc5jM_Q",
+        "name": "JOYCA",
+        "handle": "@Joyca",
+        "avatar": "https://yt3.googleusercontent.com/F5R-8dCR4OsDu1Rs_2RE20e6LUNFDJW6VemSqToit8XvdfoSj1DXJXb0Dc4aT_YEv-5TsFCF=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T15:29:20.979Z",
+      "last_seen_at": "2026-11-24T15:29:20.979Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-11-01T15:06:34+00:00"
+    },
+    {
+      "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
+      "brand": "CarVertical",
+      "promo_code": "SYLVAIN",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20% de réduction sur votre rapport",
+      "link": "https://www.carvertical.com/sylvain",
+      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
+      "channel": {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 2,
+      "video_published_at": "2026-10-29T17:15:31+00:00"
+    },
+    {
+      "id": "delko|sylvain20|---9gf--ym---m5-8lf4-ht-",
+      "brand": "Delko",
+      "promo_code": "SYLVAIN20",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20% de réduction sur la carrosserie",
+      "link": "https://delko.short.gy/jeu-concours-delko-carrosserie",
+      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
+      "channel": {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-24T19:33:31.618Z",
+      "mentions_count": 1,
+      "video_published_at": "2026-10-29T17:15:31+00:00"
     }
   ],
   "processed_videos": [
