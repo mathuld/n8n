@@ -16,6 +16,7 @@
       --text: #f3f5f8;
       --muted: #8b97b0;
       --accent: #ff3b5c;
+      --accent-soft: rgba(255, 59, 92, 0.16);
       --green: #22c55e;
       --green-soft: rgba(34, 197, 94, 0.14);
       --radius: 12px;
@@ -54,6 +55,7 @@
       font-weight: 800;
       font-size: 18px;
       color: #fff;
+      flex-shrink: 0;
     }
 
     h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; }
@@ -70,9 +72,10 @@
       font-weight: 500;
     }
 
+    /* KPIs */
     .kpi-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 12px;
       margin-bottom: 24px;
     }
@@ -87,12 +90,14 @@
     .kpi-label { color: var(--muted); font-size: 0.8rem; font-weight: 500; }
     .kpi-value { font-size: 1.75rem; font-weight: 800; margin-top: 2px; letter-spacing: -0.03em; }
 
+    /* Tabs */
     .tabs {
       display: flex;
       gap: 8px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 20px;
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .tab-btn {
@@ -115,64 +120,99 @@
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
+    /* Filters + Bouton Reset bien visible */
     .filters {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr auto;
       gap: 10px;
       margin-bottom: 14px;
+      align-items: center;
     }
-
-    @media (max-width: 860px) { .filters { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 520px) { .filters { grid-template-columns: 1fr; } }
 
     input[type="search"], select {
       width: 100%;
       background: var(--surface);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 10px 14px;
+      padding: 11px 14px;
       border-radius: 10px;
       font-family: inherit;
       font-size: 0.88rem;
       outline: none;
+      min-height: 42px;
     }
 
     input[type="search"]:focus, select:focus { border-color: var(--accent); }
 
+    .reset-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0 15px;
+      min-height: 42px;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: not-allowed;
+      opacity: 0.55;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+
+    .reset-btn.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #fff;
+      cursor: pointer;
+      opacity: 1;
+      box-shadow: 0 4px 14px rgba(255, 59, 92, 0.2);
+    }
+
+    .reset-btn.active:hover {
+      background: var(--accent);
+    }
+
     .filter-summary {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
       margin-bottom: 14px;
       color: var(--muted);
       font-size: 0.85rem;
     }
 
-    .reset-btn {
-      background: none;
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 5px 12px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 0.8rem;
-      display: none;
+    .page-size-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
-    .reset-btn.visible { display: inline-block; }
 
-    /* Table */
+    .page-size-wrap select {
+      width: auto;
+      padding: 6px 10px;
+      min-height: 34px;
+      font-size: 0.82rem;
+    }
+
+    /* Table Desktop */
     .table-wrap {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      overflow-x: auto;
+      overflow: hidden;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
       text-align: left;
-      min-width: 860px;
     }
 
     thead th {
@@ -196,7 +236,6 @@
     .brand-name { font-size: 1.05rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
     .brand-date { font-size: 0.74rem; color: var(--muted); }
 
-    /* Badge Réduction normalisée */
     .discount-badge {
       display: inline-block;
       background: var(--green-soft);
@@ -214,6 +253,7 @@
     .code-cell {
       display: inline-flex;
       align-items: center;
+      justify-content: space-between;
       gap: 8px;
       background: #0d1017;
       border: 1px dashed #3a455e;
@@ -233,7 +273,7 @@
       background: var(--accent);
       color: #fff;
       border: none;
-      padding: 5px 10px;
+      padding: 6px 11px;
       border-radius: 6px;
       font-family: inherit;
       font-size: 0.78rem;
@@ -245,7 +285,6 @@
 
     .offer-cell { color: #cbd5e1; font-size: 0.86rem; max-width: 300px; }
 
-    /* Chaîne cliquable */
     .channel-link {
       display: inline-flex;
       align-items: center;
@@ -266,7 +305,6 @@
       border: 1px solid var(--border);
       flex-shrink: 0;
       background: #232a3a;
-      transition: border-color 0.15s;
     }
 
     .avatar-sm-fallback {
@@ -289,15 +327,54 @@
       text-decoration: none;
       font-size: 0.82rem;
       font-weight: 600;
-      padding: 5px 10px;
+      padding: 6px 11px;
       border-radius: 6px;
       border: 1px solid var(--border);
       background: rgba(59, 130, 246, 0.08);
     }
     .link-btn:hover { border-color: #60a5fa; color: #fff; }
 
-    .link-video { color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 500; padding: 5px 8px; }
+    .link-video { color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 500; padding: 6px 8px; }
     .link-video:hover { color: var(--text); text-decoration: underline; }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .page-info { color: var(--muted); font-size: 0.85rem; }
+
+    .page-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .page-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      min-width: 36px;
+      height: 36px;
+      padding: 0 11px;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+    .page-btn:hover:not(:disabled) { border-color: var(--accent); }
+    .page-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .page-dots { color: var(--muted); padding: 0 4px; font-size: 0.85rem; }
 
     /* Stats & Chaînes */
     .stats-list { display: flex; flex-direction: column; gap: 10px; }
@@ -313,8 +390,6 @@
       gap: 16px;
     }
 
-    @media (max-width: 700px) { .stat-row { grid-template-columns: 1fr; gap: 10px; } }
-
     .stat-brand-name { font-weight: 700; font-size: 1rem; }
     .stat-sub { color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
 
@@ -325,7 +400,7 @@
       background: var(--surface-hover);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 7px 13px;
+      padding: 8px 14px;
       border-radius: 8px;
       font-family: inherit;
       font-size: 0.82rem;
@@ -362,6 +437,94 @@
     .avatar-lg-fallback { width: 60px; height: 60px; border-radius: 50%; background: #232a3a; color: var(--text); display: grid; place-items: center; font-weight: 700; font-size: 1.2rem; }
 
     .empty-state { text-align: center; padding: 48px 20px; color: var(--muted); }
+
+    /* ================= RESPONSIVE / MOBILE ================= */
+    @media (max-width: 960px) {
+      .filters {
+        grid-template-columns: 1fr 1fr;
+      }
+      .filters input[type="search"] {
+        grid-column: 1 / -1;
+      }
+      .reset-btn {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 18px 14px 48px; }
+      h1 { font-size: 1.25rem; }
+
+      .kpi-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+      }
+      .kpi-card { padding: 12px; }
+      .kpi-label { font-size: 0.72rem; }
+      .kpi-value { font-size: 1.35rem; }
+
+      .filters { grid-template-columns: 1fr; }
+
+      /* Transformation du tableau en cartes mobiles lisibles */
+      .table-wrap {
+        background: transparent;
+        border: none;
+      }
+      table, thead, tbody, th, td, tr { display: block; width: 100%; }
+      thead { display: none; }
+
+      tbody tr {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 15px;
+        margin-bottom: 12px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px 12px;
+        align-items: center;
+      }
+      tbody tr:last-child { border-bottom: 1px solid var(--border); }
+
+      td { padding: 0; border: none; }
+
+      /* Ligne 1 : Fournisseur à gauche, Réduction à droite */
+      td.col-brand { grid-column: 1 / 2; }
+      td.col-discount { grid-column: 2 / 3; text-align: right; }
+
+      /* Ligne 2 : Détails */
+      td.col-offer {
+        grid-column: 1 / -1;
+        max-width: none;
+        font-size: 0.88rem;
+      }
+
+      /* Ligne 3 : Code promo pleine largeur */
+      td.col-code { grid-column: 1 / -1; }
+      td.col-code .code-cell {
+        display: flex;
+        width: 100%;
+        padding: 7px 8px 7px 12px;
+      }
+      td.col-code .copy-btn { padding: 7px 14px; font-size: 0.84rem; }
+
+      /* Ligne 4 : Chaîne à gauche, Liens à droite */
+      td.col-channel {
+        grid-column: 1 / 2;
+        padding-top: 8px;
+        border-top: 1px solid var(--border);
+      }
+      td.col-links {
+        grid-column: 2 / 3;
+        padding-top: 8px;
+        border-top: 1px solid var(--border);
+      }
+
+      .stat-row { grid-template-columns: 1fr; gap: 10px; }
+      .channels-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+      .pagination { flex-direction: column; align-items: stretch; text-align: center; }
+      .page-controls { justify-content: center; }
+    }
   </style>
 </head>
 <body>
@@ -382,7 +545,7 @@
 
     <section class="kpi-grid">
       <div class="kpi-card">
-        <div class="kpi-label">Codes promo actifs</div>
+        <div class="kpi-label">Codes actifs</div>
         <div class="kpi-value" id="kpi-offers">-</div>
       </div>
       <div class="kpi-card">
@@ -390,7 +553,7 @@
         <div class="kpi-value" id="kpi-brands">-</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">Chaînes YouTube</div>
+        <div class="kpi-label">Chaînes</div>
         <div class="kpi-value" id="kpi-channels">-</div>
       </div>
     </section>
@@ -401,7 +564,7 @@
       <button class="tab-btn" data-tab="channels">Chaînes YouTube</button>
     </nav>
 
-    <!-- ONGLET 1 : TABLEAU -->
+    <!-- ONGLET 1 : TABLEAU + PAGINATION -->
     <section id="tab-offers" class="tab-panel active">
       <div class="filters">
         <input type="search" id="search-input" placeholder="Rechercher un fournisseur, un code, un détail..." />
@@ -412,11 +575,20 @@
           <option value="recent">Vidéos plus récentes</option>
           <option value="brand">Fournisseur (A-Z)</option>
         </select>
+        <button id="reset-filters" class="reset-btn" type="button">✕ Réinitialiser les filtres</button>
       </div>
 
       <div class="filter-summary">
         <span id="results-count">0 code affiché</span>
-        <button id="reset-filters" class="reset-btn">Réinitialiser</button>
+        <div class="page-size-wrap">
+          <label for="page-size">Afficher :</label>
+          <select id="page-size">
+            <option value="15" selected>15 par page</option>
+            <option value="30">30 par page</option>
+            <option value="50">50 par page</option>
+            <option value="9999">Tout</option>
+          </select>
+        </div>
       </div>
 
       <div class="table-wrap">
@@ -433,6 +605,11 @@
           </thead>
           <tbody id="offers-tbody"></tbody>
         </table>
+      </div>
+
+      <div class="pagination" id="pagination-bar">
+        <div class="page-info" id="page-info"></div>
+        <div class="page-controls" id="page-controls"></div>
       </div>
     </section>
 
@@ -451,6 +628,7 @@
     let validOffers = [];
     let brandStats = [];
     let channelStats = [];
+    let currentPage = 1;
 
     const escapeHtml = (str) =>
       String(str ?? '')
@@ -478,7 +656,6 @@
       return null;
     };
 
-    // Normalisation / secours côté front pour la colonne Réduction + tri
     const parseDiscount = (o) => {
       let val = typeof o.discount_value === 'number' ? o.discount_value : Number(o.discount_value);
       let unit = o.discount_unit || null;
@@ -501,12 +678,10 @@
         else if (unit === 'mois') label = `${val} mois`;
       }
 
-      // Score de tri : % en priorité, puis €, puis mois
       const rank = unit === '%' ? 3 : unit === '€' ? 2 : unit === 'mois' ? 1 : 0;
       return { val, unit, label, rank };
     };
 
-    // Formate la date de parution de la vidéo (ex: "21 nov. 2026")
     const formatPublishedDate = (iso) => {
       if (!iso) return '';
       const date = new Date(iso);
@@ -551,6 +726,7 @@
       document.getElementById('channel-filter').value = '';
       document.getElementById('search-input').value = '';
       document.getElementById('sort-filter').value = 'discount';
+      currentPage = 1;
       switchTab('offers');
       renderOffers();
     };
@@ -559,9 +735,63 @@
       document.getElementById('channel-filter').value = channelId;
       document.getElementById('brand-filter').value = '';
       document.getElementById('search-input').value = '';
+      currentPage = 1;
       switchTab('offers');
       renderOffers();
     };
+
+    window.goToPage = (page) => {
+      currentPage = page;
+      renderOffers();
+      document.getElementById('tab-offers').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    function renderPagination(totalItems, pageSize) {
+      const bar = document.getElementById('pagination-bar');
+      const info = document.getElementById('page-info');
+      const controls = document.getElementById('page-controls');
+
+      if (totalItems === 0) {
+        bar.style.display = 'none';
+        return;
+      }
+
+      const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const start = (currentPage - 1) * pageSize + 1;
+      const end = Math.min(currentPage * pageSize, totalItems);
+
+      bar.style.display = 'flex';
+      info.textContent = `Affichage ${start}–${end} sur ${totalItems}`;
+
+      if (totalPages <= 1) {
+        controls.innerHTML = '';
+        return;
+      }
+
+      // Génération compacte des numéros de pages (ex: 1 ... 4 5 6 ... 12)
+      const pages = [];
+      for (let p = 1; p <= totalPages; p++) {
+        if (p === 1 || p === totalPages || Math.abs(p - currentPage) <= 1) {
+          pages.push(p);
+        } else if (pages[pages.length - 1] !== '...') {
+          pages.push('...');
+        }
+      }
+
+      let html = `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">← Préc.</button>`;
+      for (const p of pages) {
+        if (p === '...') {
+          html += `<span class="page-dots">…</span>`;
+        } else {
+          html += `<button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="goToPage(${p})">${p}</button>`;
+        }
+      }
+      html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">Suiv. →</button>`;
+
+      controls.innerHTML = html;
+    }
 
     function renderOffers() {
       const tbody = document.getElementById('offers-tbody');
@@ -569,6 +799,7 @@
       const brandFilter = document.getElementById('brand-filter').value;
       const channelFilter = document.getElementById('channel-filter').value;
       const sortBy = document.getElementById('sort-filter').value;
+      const pageSize = parseInt(document.getElementById('page-size').value, 10) || 15;
 
       let list = [...validOffers];
 
@@ -599,15 +830,26 @@
         list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr') || (b._disc.val - a._disc.val));
       }
 
-      document.getElementById('reset-filters').classList.toggle('visible', Boolean(query || brandFilter || channelFilter));
-      document.getElementById('results-count').textContent = `${list.length} code${list.length > 1 ? 's' : ''} affiché${list.length > 1 ? 's' : ''}`;
+      const hasFilter = Boolean(query || brandFilter || channelFilter);
+      const resetBtn = document.getElementById('reset-filters');
+      resetBtn.classList.toggle('active', hasFilter);
+      resetBtn.disabled = !hasFilter;
+
+      document.getElementById('results-count').textContent = `${list.length} code${list.length > 1 ? 's' : ''} trouvé${list.length > 1 ? 's' : ''}`;
+
+      const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      renderPagination(list.length, pageSize);
 
       if (list.length === 0) {
         tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Aucun code promo ne correspond à vos critères.</td></tr>`;
         return;
       }
 
-      tbody.innerHTML = list.map(o => {
+      const paginatedList = list.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+
+      tbody.innerHTML = paginatedList.map(o => {
         const offerLink = normalizeUrl(o.link);
         const videoLink = normalizeUrl(o.video_url);
         const channelUrl = getChannelUrl(o.channel);
@@ -625,28 +867,28 @@
 
         return `
           <tr>
-            <td>
+            <td class="col-brand">
               <div class="brand-cell">
                 <span class="brand-name">${escapeHtml(o.brand)}</span>
                 ${pubDate ? `<span class="brand-date">Vidéo du ${pubDate}</span>` : ''}
               </div>
             </td>
-            <td>
+            <td class="col-discount">
               ${
                 o._disc.label
                   ? `<span class="discount-badge">${escapeHtml(o._disc.label)}</span>`
                   : `<span class="discount-empty">-</span>`
               }
             </td>
-            <td>
+            <td class="col-code">
               <div class="code-cell">
                 <span class="code-text">${escapeHtml(o.promo_code)}</span>
                 <button class="copy-btn" onclick="copyCode(this, '${escapeHtml(o.promo_code)}')">Copier</button>
               </div>
             </td>
-            <td class="offer-cell">${escapeHtml(o.offer || '-')}</td>
-            <td>${channelHtml}</td>
-            <td>
+            <td class="col-offer offer-cell">${escapeHtml(o.offer || '-')}</td>
+            <td class="col-channel">${channelHtml}</td>
+            <td class="col-links">
               <div class="links-cell">
                 ${videoLink ? `<a class="link-video" href="${escapeHtml(videoLink)}" target="_blank" rel="noopener">Vidéo</a>` : ''}
                 ${offerLink ? `<a class="link-btn" href="${escapeHtml(offerLink)}" target="_blank" rel="noopener">Offre →</a>` : ''}
@@ -732,7 +974,6 @@
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
-        // Filtre : uniquement les vrais codes promo + enrichissement réduction
         validOffers = (data.offers || [])
           .filter(o => o.promo_code && String(o.promo_code).trim() !== '')
           .map(o => ({ ...o, _disc: parseDiscount(o) }));
@@ -784,8 +1025,11 @@
       }
     }
 
-    ['search-input', 'brand-filter', 'channel-filter', 'sort-filter'].forEach(id => {
-      document.getElementById(id).addEventListener('input', renderOffers);
+    ['search-input', 'brand-filter', 'channel-filter', 'sort-filter', 'page-size'].forEach(id => {
+      document.getElementById(id).addEventListener('input', () => {
+        currentPage = 1;
+        renderOffers();
+      });
     });
 
     document.getElementById('reset-filters').addEventListener('click', () => {
@@ -793,6 +1037,7 @@
       document.getElementById('brand-filter').value = '';
       document.getElementById('channel-filter').value = '';
       document.getElementById('sort-filter').value = 'discount';
+      currentPage = 1;
       renderOffers();
     });
 
