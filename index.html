@@ -409,8 +409,8 @@
         <select id="channel-filter"><option value="">Toutes les chaînes</option></select>
         <select id="sort-filter">
           <option value="discount">Meilleure réduction</option>
+          <option value="recent">Vidéos plus récentes</option>
           <option value="brand">Fournisseur (A-Z)</option>
-          <option value="recent">Plus récents</option>
         </select>
       </div>
 
@@ -506,12 +506,12 @@
       return { val, unit, label, rank };
     };
 
-    const formatRelativeDate = (iso) => {
+    // Formate la date de parution de la vidéo (ex: "21 nov. 2026")
+    const formatPublishedDate = (iso) => {
       if (!iso) return '';
-      const days = Math.floor((Date.now() - new Date(iso).getTime()) / (1000 * 60 * 60 * 24));
-      if (days <= 0) return "Aujourd'hui";
-      if (days === 1) return 'Hier';
-      return `Il y a ${days} j`;
+      const date = new Date(iso);
+      if (isNaN(date.getTime())) return '';
+      return date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
     };
 
     const renderAvatar = (channel, size = 'sm') => {
@@ -591,7 +591,10 @@
           (a.brand || '').localeCompare(b.brand || '', 'fr')
         );
       } else if (sortBy === 'recent') {
-        list.sort((a, b) => new Date(b.last_seen_at || 0) - new Date(a.last_seen_at || 0));
+        list.sort((a, b) =>
+          new Date(b.video_published_at || b.last_seen_at || 0) -
+          new Date(a.video_published_at || a.last_seen_at || 0)
+        );
       } else {
         list.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'fr') || (b._disc.val - a._disc.val));
       }
@@ -608,7 +611,7 @@
         const offerLink = normalizeUrl(o.link);
         const videoLink = normalizeUrl(o.video_url);
         const channelUrl = getChannelUrl(o.channel);
-        const relDate = formatRelativeDate(o.last_seen_at);
+        const pubDate = formatPublishedDate(o.video_published_at || o.last_seen_at);
 
         const channelHtml = channelUrl
           ? `<a class="channel-link" href="${escapeHtml(channelUrl)}" target="_blank" rel="noopener" title="Ouvrir la chaîne YouTube">
@@ -625,7 +628,7 @@
             <td>
               <div class="brand-cell">
                 <span class="brand-name">${escapeHtml(o.brand)}</span>
-                ${relDate ? `<span class="brand-date">${relDate}</span>` : ''}
+                ${pubDate ? `<span class="brand-date">Vidéo du ${pubDate}</span>` : ''}
               </div>
             </td>
             <td>
