@@ -1,13 +1,18 @@
 {
-  "updated_at": "2026-11-25T09:56:54.032Z",
+  "updated_at": "2026-11-25T10:07:13.594Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 18,
+    "total_active_offers": 19,
     "total_brands": 16,
-    "total_channels": 15,
+    "total_channels": 16,
     "top_brands": [
       {
         "brand": "HOLY",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
+      {
+        "brand": "Emma",
         "active_codes": 2,
         "total_mentions": 2
       },
@@ -63,11 +68,6 @@
       },
       {
         "brand": "Ultra Premium Direct",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
-        "brand": "Emma",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -173,6 +173,14 @@
         "name": "Fuze III",
         "handle": "@FuzeIII",
         "avatar": "https://yt3.googleusercontent.com/ouC_QbObGHFr-Wf9Mg9fzZTgK-PqpE_vwI53eOy1coC4LYtYwqUDHjHXLfrraLtDPOzKzY1yGA=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
+        "id": "UCMQSwUNSnMOP4IRysfeg8EA",
+        "name": "Simon Puech",
+        "handle": "@SPuech",
+        "avatar": "https://yt3.googleusercontent.com/QlqvWfuwKRzbBiDYqN0oFvBfITo43Bwd764zxYkJPahA6GKT0i_32Cp29roHcYvkKKSOIZVA=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 1,
         "total_mentions": 1
       },
@@ -420,6 +428,27 @@
       "last_seen_at": "2026-11-24T19:33:31.618Z",
       "mentions_count": 1,
       "video_published_at": "2026-11-17T19:40:53+00:00"
+    },
+    {
+      "id": "emma|puech10|-----w---n---4--ysfeg8--",
+      "brand": "Emma",
+      "promo_code": "PUECH10",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% cumulables",
+      "link": "http://emma.fr/?utm_source=youtube&utm_medium=influencer&utm_campaign=SPuech&utm_code=PUECH10",
+      "video_url": "https://www.youtube.com/watch?v=bYoFm4ri-PY",
+      "video_published_at": "2026-11-17T16:01:12+00:00",
+      "channel": {
+        "id": "UCMQSwUNSnMOP4IRysfeg8EA",
+        "name": "Simon Puech",
+        "handle": "@SPuech",
+        "avatar": "https://yt3.googleusercontent.com/QlqvWfuwKRzbBiDYqN0oFvBfITo43Bwd764zxYkJPahA6GKT0i_32Cp29roHcYvkKKSOIZVA=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-25T10:07:13.594Z",
+      "last_seen_at": "2026-11-25T10:07:13.594Z",
+      "mentions_count": 1
     },
     {
       "id": "hostinger|micode|---nvx----i--o-t--p----w",
@@ -779,7 +808,12 @@
     "https://www.youtube.com/shorts/-ri3SAQdfEo",
     "https://www.youtube.com/shorts/SLYWSFCbGcg",
     "https://www.youtube.com/shorts/WYVNGZuu6QM",
-    "https://www.youtube.com/shorts/B65E8QtBmMM"
+    "https://www.youtube.com/shorts/B65E8QtBmMM",
+    "https://www.youtube.com/watch?v=bYoFm4ri-PY",
+    "https://www.youtube.com/shorts/xAQmK82Gbzg",
+    "https://www.youtube.com/shorts/wIVSusJKDss",
+    "https://www.youtube.com/shorts/sIJ_smYXYxE",
+    "https://www.youtube.com/shorts/NG40r89gh2E"
   ],
   "channels_cache": {
     "@Squeezie": {
@@ -1001,6 +1035,11 @@
       "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
       "name": "HugoDécrypte - Actus du jour",
       "avatar": "https://yt3.googleusercontent.com/doPajjcwkXA71S2WCZsvhXSGapCsp46InwN9048iQa327OXZwxXvXJCY3FnGL6BpymL4k9jATA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "@SPuech": {
+      "id": "UCMQSwUNSnMOP4IRysfeg8EA",
+      "name": "Simon Puech",
+      "avatar": "https://yt3.googleusercontent.com/QlqvWfuwKRzbBiDYqN0oFvBfITo43Bwd764zxYkJPahA6GKT0i_32Cp29roHcYvkKKSOIZVA=s900-c-k-c0x00ffffff-no-rj"
     }
   }
 }
