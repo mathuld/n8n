@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-25T17:01:48.714Z",
+  "updated_at": "2026-11-26T05:01:44.858Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 29,
-    "total_brands": 24,
+    "total_active_offers": 30,
+    "total_brands": 25,
     "total_channels": 22,
     "top_brands": [
       {
@@ -30,6 +30,11 @@
         "brand": "carVertical",
         "active_codes": 2,
         "total_mentions": 3
+      },
+      {
+        "brand": "Higgsfield",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Auto M6 Ultra+ 2.0",
@@ -129,6 +134,14 @@
     ],
     "top_channels": [
       {
+        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+        "name": "Aywen",
+        "handle": "@Aywen",
+        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 3,
+        "total_mentions": 3
+      },
+      {
         "id": "UCCFqUJYKT97UerMmb6DM0bw",
         "name": "GOTAGA",
         "handle": "@Gotaga",
@@ -165,14 +178,6 @@
         "name": "CYRILmp4",
         "handle": "@CYRILmp4",
         "avatar": "https://yt3.googleusercontent.com/tk7oHsJutrdeI80Zzf5jvxT3nfwX5ZR4Qx9eguHLDIHYI30mg2nhfNsbQpU9vHUE1MEN8Zcbc30=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
-        "name": "Aywen",
-        "handle": "@Aywen",
-        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 2,
         "total_mentions": 2
       },
@@ -307,6 +312,27 @@
     ]
   },
   "offers": [
+    {
+      "id": "higgsfield|mcp-aywen-fldrlf|---o7-6-3ej-7-psmpf---zw",
+      "brand": "Higgsfield",
+      "promo_code": "mcp-aywen-FLdrLF",
+      "discount_value": 70,
+      "discount_unit": "%",
+      "discount_label": "-70%",
+      "offer": "Black Friday sur Higgsfield, jusqu'à 70% de réduction",
+      "link": "https://higgsfield.ai/s/mcp-aywen-FLdrLF",
+      "video_url": "https://www.youtube.com/watch?v=tsuOeATXm78",
+      "video_published_at": "2026-11-25T21:39:48+00:00",
+      "channel": {
+        "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
+        "name": "Aywen",
+        "handle": "@Aywen",
+        "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-26T05:01:44.858Z",
+      "last_seen_at": "2026-11-26T05:01:44.858Z",
+      "mentions_count": 1
+    },
     {
       "id": "auto-m6-ultra--2-0|kolbonus|---hy--yl--5---l1l-92ft-",
       "brand": "Auto M6 Ultra+ 2.0",
@@ -1252,7 +1278,20 @@
     "https://www.youtube.com/shorts/2h7_7C8FS8E",
     "https://www.youtube.com/watch?v=Xb7J-cNBQW0",
     "https://www.youtube.com/shorts/goPVKnQvicc",
-    "https://www.youtube.com/shorts/KgJFVVV1ww0"
+    "https://www.youtube.com/shorts/KgJFVVV1ww0",
+    "https://www.youtube.com/shorts/yMvB9Ujbjyc",
+    "https://www.youtube.com/shorts/v6iWg13-zTo",
+    "https://www.youtube.com/shorts/Umi21jZhfIs",
+    "https://www.youtube.com/watch?v=zVpZzr-3VRU",
+    "https://www.youtube.com/shorts/yK659AMM9vw",
+    "https://www.youtube.com/shorts/iQdV5KIncUk",
+    "https://www.youtube.com/shorts/xSRhqur3sA8",
+    "https://www.youtube.com/shorts/FJQUc1S3ttU",
+    "https://www.youtube.com/shorts/CrsnynbFkAA",
+    "https://www.youtube.com/shorts/LPogSxBRedc",
+    "https://www.youtube.com/shorts/L_GlfVmdumo",
+    "https://www.youtube.com/shorts/Cj-rRrJ75T0",
+    "https://www.youtube.com/watch?v=tsuOeATXm78"
   ],
   "channels_cache": {
     "@Squeezie": {
