@@ -1,11 +1,16 @@
 {
-  "updated_at": "2026-11-26T05:01:44.858Z",
+  "updated_at": "2026-11-26T17:01:51.176Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 30,
+    "total_active_offers": 31,
     "total_brands": 25,
     "total_channels": 22,
     "top_brands": [
+      {
+        "brand": "Hostinger",
+        "active_codes": 2,
+        "total_mentions": 2
+      },
       {
         "brand": "HOLY",
         "active_codes": 2,
@@ -87,11 +92,6 @@
         "total_mentions": 1
       },
       {
-        "brand": "Hostinger",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
         "brand": "Huawei",
         "active_codes": 1,
         "total_mentions": 1
@@ -140,6 +140,14 @@
         "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 3,
         "total_mentions": 3
+      },
+      {
+        "id": "UCC1Tdag0L4dfOEDAsWW6TvQ",
+        "name": "Nassim Sahili",
+        "handle": "@NassimSahili",
+        "avatar": "https://yt3.googleusercontent.com/wasLlwaceOgI1C2NzLrAZHqolQEhN09KLgGl2Z8iXtxvF97dc0BbteTu9shAdoE4VSNuzEbb=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 2
       },
       {
         "id": "UCCFqUJYKT97UerMmb6DM0bw",
@@ -278,14 +286,6 @@
         "total_mentions": 1
       },
       {
-        "id": "UCC1Tdag0L4dfOEDAsWW6TvQ",
-        "name": "Nassim Sahili",
-        "handle": "@NassimSahili",
-        "avatar": "https://yt3.googleusercontent.com/wasLlwaceOgI1C2NzLrAZHqolQEhN09KLgGl2Z8iXtxvF97dc0BbteTu9shAdoE4VSNuzEbb=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 1,
-        "total_mentions": 1
-      },
-      {
         "id": "UCC_r3spMB5i5QKgtdNVO0OQ",
         "name": "Pierre Croce",
         "handle": "@PierreCroce",
@@ -312,6 +312,27 @@
     ]
   },
   "offers": [
+    {
+      "id": "hostinger|ns10|---1-dag0-4df----s--6-v-",
+      "brand": "Hostinger",
+      "promo_code": "NS10",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10 % de réduction avec le code NS10",
+      "link": "https://hostinger.fr/ns10",
+      "video_url": "https://www.youtube.com/watch?v=VXA9L3Dnc_Q",
+      "video_published_at": "2026-11-26T16:16:14+00:00",
+      "channel": {
+        "id": "UCC1Tdag0L4dfOEDAsWW6TvQ",
+        "name": "Nassim Sahili",
+        "handle": "@NassimSahili",
+        "avatar": "https://yt3.googleusercontent.com/wasLlwaceOgI1C2NzLrAZHqolQEhN09KLgGl2Z8iXtxvF97dc0BbteTu9shAdoE4VSNuzEbb=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-26T17:01:51.176Z",
+      "last_seen_at": "2026-11-26T17:01:51.176Z",
+      "mentions_count": 1
+    },
     {
       "id": "higgsfield|mcp-aywen-fldrlf|---o7-6-3ej-7-psmpf---zw",
       "brand": "Higgsfield",
@@ -1291,7 +1312,14 @@
     "https://www.youtube.com/shorts/LPogSxBRedc",
     "https://www.youtube.com/shorts/L_GlfVmdumo",
     "https://www.youtube.com/shorts/Cj-rRrJ75T0",
-    "https://www.youtube.com/watch?v=tsuOeATXm78"
+    "https://www.youtube.com/watch?v=tsuOeATXm78",
+    "https://www.youtube.com/shorts/0_i0qzUAF-Q",
+    "https://www.youtube.com/shorts/4s8v_w_4bjI",
+    "https://www.youtube.com/shorts/uhuSjjfAVgY",
+    "https://www.youtube.com/shorts/E0mxScnlBmw",
+    "https://www.youtube.com/shorts/69PgY2KCz-A",
+    "https://www.youtube.com/shorts/4S065x6_J18",
+    "https://www.youtube.com/watch?v=VXA9L3Dnc_Q"
   ],
   "channels_cache": {
     "@Squeezie": {
