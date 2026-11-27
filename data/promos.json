@@ -1,23 +1,28 @@
 {
-  "updated_at": "2026-11-26T17:01:51.176Z",
+  "updated_at": "2026-11-27T17:03:32.108Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 31,
+    "total_active_offers": 33,
     "total_brands": 25,
-    "total_channels": 22,
+    "total_channels": 23,
     "top_brands": [
       {
+        "brand": "RHINOSHIELD",
+        "active_codes": 3,
+        "total_mentions": 3
+      },
+      {
+        "brand": "Holy",
+        "active_codes": 3,
+        "total_mentions": 3
+      },
+      {
+        "brand": "CarVertical",
+        "active_codes": 2,
+        "total_mentions": 4
+      },
+      {
         "brand": "Hostinger",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "brand": "HOLY",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
-        "brand": "Rhinoshield",
         "active_codes": 2,
         "total_mentions": 2
       },
@@ -30,11 +35,6 @@
         "brand": "Emma",
         "active_codes": 2,
         "total_mentions": 2
-      },
-      {
-        "brand": "carVertical",
-        "active_codes": 2,
-        "total_mentions": 3
       },
       {
         "brand": "Higgsfield",
@@ -134,12 +134,28 @@
     ],
     "top_channels": [
       {
+        "id": "UC5X4e8ScZI2AFd_vkjSoyoQ",
+        "name": "AstronoGeek",
+        "handle": "@Astronogeek",
+        "avatar": "https://yt3.googleusercontent.com/8e1-6kx0mo8BRgIkkO4u7auZlaACmHyAvaEeEtl1mW6csiZtli6p-PHDi7-R5ZkT-Afr98X_=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 3,
+        "total_mentions": 3
+      },
+      {
         "id": "UCZo7D6E3ejS7KpsmpfVRRzw",
         "name": "Aywen",
         "handle": "@Aywen",
         "avatar": "https://yt3.googleusercontent.com/im1Ym-hvszy5dfx7ebMzvWlc10gUdEUpUgGMsc50r_eiY1tnDcdfvSTYZRnor0TaooEi8HaPvuc=s900-c-k-c0x00ffffff-no-rj",
         "active_codes": 3,
         "total_mentions": 3
+      },
+      {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 2,
+        "total_mentions": 4
       },
       {
         "id": "UCC1Tdag0L4dfOEDAsWW6TvQ",
@@ -174,14 +190,6 @@
         "total_mentions": 2
       },
       {
-        "id": "UC5X4e8ScZI2AFd_vkjSoyoQ",
-        "name": "AstronoGeek",
-        "handle": "@Astronogeek",
-        "avatar": "https://yt3.googleusercontent.com/8e1-6kx0mo8BRgIkkO4u7auZlaACmHyAvaEeEtl1mW6csiZtli6p-PHDi7-R5ZkT-Afr98X_=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 2
-      },
-      {
         "id": "UC-4M8AN08hw39nn2v91VuMQ",
         "name": "CYRILmp4",
         "handle": "@CYRILmp4",
@@ -190,12 +198,12 @@
         "total_mentions": 2
       },
       {
-        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
-        "name": "Sylvain Lyve",
-        "handle": "@SylvainLyve",
-        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj",
-        "active_codes": 2,
-        "total_mentions": 3
+        "id": "UCDPK_MTu3uTUFJXRVcTJcEw",
+        "name": "Mcfly et Carlito",
+        "handle": "@LeFatShow",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kSPG3h89eFoHhkLFYl_VQ6OkFpLCfpZUSuIWkRJt0sI-E=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "id": "UCRhyS_ylPQ5GWBl1lK92ftA",
@@ -312,6 +320,69 @@
     ]
   },
   "offers": [
+    {
+      "id": "rhinoshield|rhinoloop|--------u3u-------c--c-w",
+      "brand": "RHINOSHIELD",
+      "promo_code": "RHINOLOOP",
+      "discount_value": 70,
+      "discount_unit": "%",
+      "discount_label": "-70%",
+      "offer": "jusqu’à 70 % de remise + bon d’achat immédiat de 13 €",
+      "link": "https://url.rhinoshield.fr/McflyCarlito-BF",
+      "video_url": "https://www.youtube.com/watch?v=t7ogo3uobm0",
+      "video_published_at": "2026-11-27T16:22:42+00:00",
+      "channel": {
+        "id": "UCDPK_MTu3uTUFJXRVcTJcEw",
+        "name": "Mcfly et Carlito",
+        "handle": "@LeFatShow",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kSPG3h89eFoHhkLFYl_VQ6OkFpLCfpZUSuIWkRJt0sI-E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-27T17:03:32.108Z",
+      "last_seen_at": "2026-11-27T17:03:32.108Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "holy|astronogeek|--5-4e8-c--2--d-vkj-oyo-",
+      "brand": "Holy",
+      "promo_code": "ASTRONOGEEK",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "sur votre achat chez Holy",
+      "link": null,
+      "video_url": "https://www.youtube.com/watch?v=wDBgEwBuBWw",
+      "video_published_at": "2026-11-27T15:00:03+00:00",
+      "channel": {
+        "id": "UC5X4e8ScZI2AFd_vkjSoyoQ",
+        "name": "AstronoGeek",
+        "handle": "@Astronogeek",
+        "avatar": "https://yt3.googleusercontent.com/8e1-6kx0mo8BRgIkkO4u7auZlaACmHyAvaEeEtl1mW6csiZtli6p-PHDi7-R5ZkT-Afr98X_=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-27T17:03:32.108Z",
+      "last_seen_at": "2026-11-27T17:03:32.108Z",
+      "mentions_count": 1
+    },
+    {
+      "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
+      "brand": "CarVertical",
+      "promo_code": "SYLVAIN",
+      "discount_value": 20,
+      "discount_unit": "%",
+      "discount_label": "-20%",
+      "offer": "20% de réduction avec le code SYLVAIN",
+      "link": "https://www.carvertical.com/sylvain",
+      "video_url": "https://www.youtube.com/watch?v=ATFWjQDaZLc",
+      "channel": {
+        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
+        "name": "Sylvain Lyve",
+        "handle": "@SylvainLyve",
+        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-24T19:33:31.618Z",
+      "last_seen_at": "2026-11-27T17:03:32.108Z",
+      "mentions_count": 3,
+      "video_published_at": "2026-11-26T17:15:19+00:00"
+    },
     {
       "id": "hostinger|ns10|---1-dag0-4df----s--6-v-",
       "brand": "Hostinger",
@@ -922,27 +993,6 @@
       "mentions_count": 1
     },
     {
-      "id": "carvertical|sylvain|---9gf--ym---m5-8lf4-ht-",
-      "brand": "CarVertical",
-      "promo_code": "SYLVAIN",
-      "discount_value": 20,
-      "discount_unit": "%",
-      "discount_label": "-20%",
-      "offer": "20% de réduction sur votre rapport",
-      "link": "https://www.carvertical.com/sylvain",
-      "video_url": "https://www.youtube.com/watch?v=gMUfOiuXAT4",
-      "channel": {
-        "id": "UCB9gfNOymNLIm5J8lf4MhtA",
-        "name": "Sylvain Lyve",
-        "handle": "@SylvainLyve",
-        "avatar": "https://yt3.googleusercontent.com/VIUzUgC_byAkR-ZVQkcTNeu1bV2DL1r4edu993uQwKMwh14vrffbnZJUKRTM-G6-JVac1d8Vd2E=s900-c-k-c0x00ffffff-no-rj"
-      },
-      "first_seen_at": "2026-11-24T19:33:31.618Z",
-      "last_seen_at": "2026-11-24T19:33:31.618Z",
-      "mentions_count": 2,
-      "video_published_at": "2026-10-29T17:15:31+00:00"
-    },
-    {
       "id": "delko|sylvain20|---9gf--ym---m5-8lf4-ht-",
       "brand": "Delko",
       "promo_code": "SYLVAIN20",
@@ -1319,7 +1369,36 @@
     "https://www.youtube.com/shorts/E0mxScnlBmw",
     "https://www.youtube.com/shorts/69PgY2KCz-A",
     "https://www.youtube.com/shorts/4S065x6_J18",
-    "https://www.youtube.com/watch?v=VXA9L3Dnc_Q"
+    "https://www.youtube.com/watch?v=VXA9L3Dnc_Q",
+    "https://www.youtube.com/shorts/W89vW9gj3Hk",
+    "https://www.youtube.com/watch?v=t7ogo3uobm0",
+    "https://www.youtube.com/shorts/n2V-IoIOMHc",
+    "https://www.youtube.com/shorts/a7EYOSgO-xA",
+    "https://www.youtube.com/shorts/GFKedfHzpY0",
+    "https://www.youtube.com/shorts/tmg3H9ztWnk",
+    "https://www.youtube.com/shorts/IQrPGXdcHfY",
+    "https://www.youtube.com/shorts/-KFFrfxaudo",
+    "https://www.youtube.com/shorts/H9JssGZRS14",
+    "https://www.youtube.com/shorts/B5k60pNdS2g",
+    "https://www.youtube.com/shorts/185uTi5k6Ao",
+    "https://www.youtube.com/watch?v=ATFWjQDaZLc",
+    "https://www.youtube.com/shorts/2N48GT4C-M0",
+    "https://www.youtube.com/shorts/a5H1hrIjWl8",
+    "https://www.youtube.com/shorts/GPce4mVYhyI",
+    "https://www.youtube.com/shorts/n3EgM5lbefY",
+    "https://www.youtube.com/shorts/byqoQkAFhz4",
+    "https://www.youtube.com/shorts/LBrUEC_p7Ts",
+    "https://www.youtube.com/shorts/cC3Rnb2ceJQ",
+    "https://www.youtube.com/watch?v=pFFuacZ_m8s",
+    "https://www.youtube.com/shorts/rhL-1ohk3ZQ",
+    "https://www.youtube.com/shorts/-6CVpvp-8p4",
+    "https://www.youtube.com/watch?v=wDBgEwBuBWw",
+    "https://www.youtube.com/watch?v=npWZI2cnMBA",
+    "https://www.youtube.com/watch?v=sV3_CFFNdeo",
+    "https://www.youtube.com/shorts/x6WtTyjvns0",
+    "https://www.youtube.com/shorts/KnJgTluQ-bw",
+    "https://www.youtube.com/shorts/gxiGjPO1hQw",
+    "https://www.youtube.com/watch?v=Z1PiyjxVZMw"
   ],
   "channels_cache": {
     "@Squeezie": {
