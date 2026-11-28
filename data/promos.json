@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-28T05:02:06.111Z",
+  "updated_at": "2026-11-28T17:02:29.312Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 34,
-    "total_brands": 26,
-    "total_channels": 24,
+    "total_active_offers": 35,
+    "total_brands": 27,
+    "total_channels": 25,
     "top_brands": [
       {
         "brand": "RHINOSHIELD",
@@ -35,6 +35,11 @@
         "brand": "Emma",
         "active_codes": 2,
         "total_mentions": 2
+      },
+      {
+        "brand": "Ultrapremiumdirect",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Holy Energy",
@@ -203,6 +208,14 @@
         "total_mentions": 2
       },
       {
+        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
+        "name": "Maghla",
+        "handle": "@Maghla",
+        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
         "id": "UCwN_MU6-sDwOMArIlYIsKXA",
         "name": "JeanBaptisteShow",
         "handle": "@JeanBaptisteShow",
@@ -333,6 +346,27 @@
     ]
   },
   "offers": [
+    {
+      "id": "ultrapremiumdirect|maghla25|--hz-f-fgk7s-5--dy2r1-ow",
+      "brand": "Ultrapremiumdirect",
+      "promo_code": "MAGHLA25",
+      "discount_value": 25,
+      "discount_unit": "%",
+      "discount_label": "-25%",
+      "offer": "sur tout le site ultrapremiumdirect.com valable en France et en Belgique jusqu'au 2/01",
+      "link": "https://www.ultrapremiumdirect.com/?utm_source=Youtube&utm_medium=partenariat&utm_campaign=maghla-youtube-112026",
+      "video_url": "https://www.youtube.com/watch?v=yS_ohfFDqMY",
+      "video_published_at": "2026-11-28T09:00:30+00:00",
+      "channel": {
+        "id": "UChzNfUfgk7sQ5VOdy2r1Jow",
+        "name": "Maghla",
+        "handle": "@Maghla",
+        "avatar": "https://yt3.googleusercontent.com/AmhkX5Jeh3m8pbAs-yzlOXKC9R530xqjkO20U48J0iIvgaBCrjym-9Xi_UNATFJE8meaVbcbfsY=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-28T17:02:29.312Z",
+      "last_seen_at": "2026-11-28T17:02:29.312Z",
+      "mentions_count": 1
+    },
     {
       "id": "holy-energy|jbshow|--w----6-s-w---r-l--s---",
       "brand": "Holy Energy",
@@ -1440,7 +1474,17 @@
     "https://www.youtube.com/shorts/F_tUMqoHVkg",
     "https://www.youtube.com/shorts/ufR8dzyK-uE",
     "https://www.youtube.com/watch?v=4No86eVjM2E",
-    "https://www.youtube.com/watch?v=rbLQXP3qfTY"
+    "https://www.youtube.com/watch?v=rbLQXP3qfTY",
+    "https://www.youtube.com/shorts/ZwIOsCPH67c",
+    "https://www.youtube.com/watch?v=rQDyQQLyFMw",
+    "https://www.youtube.com/shorts/lQ4cZ4E30eA",
+    "https://www.youtube.com/shorts/FM9hRw2elrg",
+    "https://www.youtube.com/shorts/gwAkDosWT78",
+    "https://www.youtube.com/watch?v=P7nV-ZLV3Vo",
+    "https://www.youtube.com/watch?v=WUzSdbuskRc",
+    "https://www.youtube.com/watch?v=LMkmuEwjMHU",
+    "https://www.youtube.com/watch?v=yS_ohfFDqMY",
+    "https://www.youtube.com/shorts/4Wq4rmO-6O4"
   ],
   "channels_cache": {
     "@Squeezie": {
