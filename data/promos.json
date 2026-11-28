@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-27T17:03:32.108Z",
+  "updated_at": "2026-11-28T05:02:06.111Z",
   "retention_days": 30,
   "stats": {
-    "total_active_offers": 33,
-    "total_brands": 25,
-    "total_channels": 23,
+    "total_active_offers": 34,
+    "total_brands": 26,
+    "total_channels": 24,
     "top_brands": [
       {
         "brand": "RHINOSHIELD",
@@ -35,6 +35,11 @@
         "brand": "Emma",
         "active_codes": 2,
         "total_mentions": 2
+      },
+      {
+        "brand": "Holy Energy",
+        "active_codes": 1,
+        "total_mentions": 1
       },
       {
         "brand": "Higgsfield",
@@ -198,6 +203,14 @@
         "total_mentions": 2
       },
       {
+        "id": "UCwN_MU6-sDwOMArIlYIsKXA",
+        "name": "JeanBaptisteShow",
+        "handle": "@JeanBaptisteShow",
+        "avatar": "https://yt3.googleusercontent.com/wP0QSNgo7duKo-cVZ_PMpsH3T2n56yCekSzyvp2f6gdoZ7E2U0cY14rrSqVlhWj8gh1zGePHNOQ=s900-c-k-c0x00ffffff-no-rj",
+        "active_codes": 1,
+        "total_mentions": 1
+      },
+      {
         "id": "UCDPK_MTu3uTUFJXRVcTJcEw",
         "name": "Mcfly et Carlito",
         "handle": "@LeFatShow",
@@ -320,6 +333,27 @@
     ]
   },
   "offers": [
+    {
+      "id": "holy-energy|jbshow|--w----6-s-w---r-l--s---",
+      "brand": "Holy Energy",
+      "promo_code": "JBSHOW",
+      "discount_value": 10,
+      "discount_unit": "%",
+      "discount_label": "-10%",
+      "offer": "10% de réduction sur votre achat",
+      "link": "https://fr.weareholy.com/jbshow/youtube",
+      "video_url": "https://www.youtube.com/watch?v=rbLQXP3qfTY",
+      "video_published_at": "2026-11-27T17:15:44+00:00",
+      "channel": {
+        "id": "UCwN_MU6-sDwOMArIlYIsKXA",
+        "name": "JeanBaptisteShow",
+        "handle": "@JeanBaptisteShow",
+        "avatar": "https://yt3.googleusercontent.com/wP0QSNgo7duKo-cVZ_PMpsH3T2n56yCekSzyvp2f6gdoZ7E2U0cY14rrSqVlhWj8gh1zGePHNOQ=s900-c-k-c0x00ffffff-no-rj"
+      },
+      "first_seen_at": "2026-11-28T05:02:06.111Z",
+      "last_seen_at": "2026-11-28T05:02:06.111Z",
+      "mentions_count": 1
+    },
     {
       "id": "rhinoshield|rhinoloop|--------u3u-------c--c-w",
       "brand": "RHINOSHIELD",
@@ -1398,7 +1432,15 @@
     "https://www.youtube.com/shorts/x6WtTyjvns0",
     "https://www.youtube.com/shorts/KnJgTluQ-bw",
     "https://www.youtube.com/shorts/gxiGjPO1hQw",
-    "https://www.youtube.com/watch?v=Z1PiyjxVZMw"
+    "https://www.youtube.com/watch?v=Z1PiyjxVZMw",
+    "https://www.youtube.com/shorts/Yv-wvb4fsJY",
+    "https://www.youtube.com/shorts/3UOpuFsPH_E",
+    "https://www.youtube.com/shorts/U0yQlhbc8P4",
+    "https://www.youtube.com/watch?v=LmNRjR8cpR0",
+    "https://www.youtube.com/shorts/F_tUMqoHVkg",
+    "https://www.youtube.com/shorts/ufR8dzyK-uE",
+    "https://www.youtube.com/watch?v=4No86eVjM2E",
+    "https://www.youtube.com/watch?v=rbLQXP3qfTY"
   ],
   "channels_cache": {
     "@Squeezie": {
